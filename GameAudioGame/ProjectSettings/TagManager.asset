@@ -7,6 +7,8 @@ TagManager:
   - Pop Tire
   - Underside
   - Person
+  - Car
+  - Target
   layers:
   - Default
   - TransparentFX
