@@ -1,54 +1,213 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18362.900; Version 1903; 64bit' Language: 'en' Physical Memory: 16342 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/FiercePC/Documents/GameAudio/GameAudioProject/GameAudioGame
+/Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63741
-Successfully changed project path to: C:/Users/FiercePC/Documents/GameAudio/GameAudioProject/GameAudioGame
-C:/Users/FiercePC/Documents/GameAudio/GameAudioProject/GameAudioGame
+49910
+Successfully changed project path to: /Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
+/Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
 Using Asset Import Pipeline V2.
 Platform WindowsStandaloneSupport does not support graphics device type 
 
-Refreshing native plugins compatible for Editor in 148.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/FiercePC/Documents/GameAudio/GameAudioProject/GameAudioGame/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
-    Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.5671
+2022-03-29 10:43:58.294 Unity[5039:29038] iMac preferred device: AMD Radeon Pro 575 (high power)
+2022-03-29 10:43:58.294 Unity[5039:29038] Metal devices available: 1
+2022-03-29 10:43:58.294 Unity[5039:29038] 0: AMD Radeon Pro 575 (high power)
+2022-03-29 10:43:58.294 Unity[5039:29038] Using device AMD Radeon Pro 575 (high power)
+Initializing Metal device caps: AMD Radeon Pro 575
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56039
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.857469 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.73 ms, found 0 plugins.
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000515 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 29.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 22.050 seconds
+- Completed reload, in  1.791 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.136858 seconds.
+Registered in 0.000518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1177 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.7 MB.
+System memory in use after: 112.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1620.
+Total: 1.824641 ms (FindLiveObjects: 0.141968 ms CreateObjectMapping: 0.039492 ms MarkObjects: 1.578087 ms  DeleteObjects: 0.064130 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(a3ce6cd52c032fd4391b60e6760d2726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(a3ce6cd52c032fd4391b60e6760d2726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6256feffaf7396a1db8e4018aefb3987') in 0.008095 seconds
+  Import took 0.009855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8b3e6ee02caa2d243a36ae1ced8e6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8b3e6ee02caa2d243a36ae1ced8e6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2bbfe42d2b01c0198e30afe185c77d') in 0.000686 seconds
+  Import took 0.001908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Scenes/dd2atwn-916c8e06-c911-4b87-8126-768b2425397d.png
+  artifactKey: Guid(9729fafb4149b694e89677c6f5ca9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dd2atwn-916c8e06-c911-4b87-8126-768b2425397d.png using Guid(9729fafb4149b694e89677c6f5ca9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b774ba28cad944a6704861fa9eb40fc2') in 0.928457 seconds
+  Import took 0.929929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.390953 seconds.
+  path: Assets/Scenes/Fail.unity
+  artifactKey: Guid(0bea8972c6a626f41aad2ed736fe59c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fail.unity using Guid(0bea8972c6a626f41aad2ed736fe59c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5089eb40b350a45b734a763670406da') in 0.006518 seconds
+  Import took 0.008396 seconds .
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.000855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1629.
+Total: 1.454888 ms (FindLiveObjects: 0.164048 ms CreateObjectMapping: 0.037399 ms MarkObjects: 1.238752 ms  DeleteObjects: 0.013427 ms)
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.001403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1297 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 1.341466 ms (FindLiveObjects: 0.149679 ms CreateObjectMapping: 0.039841 ms MarkObjects: 1.125330 ms  DeleteObjects: 0.025811 ms)
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.001369 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.bundle
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/fmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.bundle
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.bundle
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/fmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL.bundle
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libfmodstudioL
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1293 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 1.264350 ms (FindLiveObjects: 0.161140 ms CreateObjectMapping: 0.038533 ms MarkObjects: 1.046991 ms  DeleteObjects: 0.017022 ms)
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.001386 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.bundle
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1293 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.9 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 1.374710 ms (FindLiveObjects: 0.213522 ms CreateObjectMapping: 0.055200 ms MarkObjects: 1.086582 ms  DeleteObjects: 0.018681 ms)
+
