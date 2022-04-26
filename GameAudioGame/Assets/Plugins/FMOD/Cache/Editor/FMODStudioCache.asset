@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: 1441986216
     Data4: 1854250127
   Banks:
-  - {fileID: 1951055305216746660}
+  - {fileID: 6384879288570658167}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -28,27 +28,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10000
---- !u!114 &-8655122799687932012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Interactable.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD/PizzaGame/Build/Desktop/Interactable.bank
-  Name: Interactable
-  StudioPath: bank:/Interactable
-  lastModified: 637847562020000000
-  FileSizes:
-  - Name: Desktop
-    Value: 1239648
-  Exists: 1
---- !u!114 &-8458113064257383942
+--- !u!114 &-7382351926339730373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60,33 +40,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../FMOD/PizzaGame/Build/Desktop/Master.bank
+  Path: ../PizzaGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637847562020000000
+  lastModified: 637852049270000000
   FileSizes:
   - Name: Desktop
     Value: 1036
-  Exists: 1
---- !u!114 &-4908205907796149613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD/PizzaGame/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637847562020000000
-  FileSizes:
-  - Name: Desktop
-    Value: 1150
   Exists: 1
 --- !u!114 &-4307749891091782206
 MonoBehaviour:
@@ -107,7 +67,7 @@ MonoBehaviour:
     Data3: -1097891695
     Data4: 1307517150
   Banks:
-  - {fileID: -8655122799687932012}
+  - {fileID: 8303584067551613694}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -115,6 +75,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 910
+--- !u!114 &-1612277964555667729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../PizzaGame/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637852049270000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1150
+  Exists: 1
 --- !u!114 &-463566837161177989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +114,7 @@ MonoBehaviour:
     Data3: 1533409441
     Data4: -1820138007
   Banks:
-  - {fileID: -8655122799687932012}
+  - {fileID: 8303584067551613694}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -156,10 +136,10 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -4908205907796149613}
-  - {fileID: -8458113064257383942}
-  - {fileID: -8655122799687932012}
-  - {fileID: 1951055305216746660}
+  - {fileID: -1612277964555667729}
+  - {fileID: 8303584067551613694}
+  - {fileID: -7382351926339730373}
+  - {fileID: 6384879288570658167}
   EditorEvents:
   - {fileID: 3261795787710383163}
   - {fileID: -4307749891091782206}
@@ -167,31 +147,11 @@ MonoBehaviour:
   - {fileID: -8967126840714364390}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -8458113064257383942}
+  - {fileID: -7382351926339730373}
   StringsBanks:
-  - {fileID: -4908205907796149613}
-  cacheTime: 637847562040000000
+  - {fileID: -1612277964555667729}
+  cacheTime: 637852049270000000
   cacheVersion: 10
---- !u!114 &1951055305216746660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD/PizzaGame/Build/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 637847562040000000
-  FileSizes:
-  - Name: Desktop
-    Value: 2164192
-  Exists: 1
 --- !u!114 &3261795787710383163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +171,7 @@ MonoBehaviour:
     Data3: -1327193434
     Data4: -403700843
   Banks:
-  - {fileID: -8655122799687932012}
+  - {fileID: 8303584067551613694}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -243,6 +203,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6384879288570658167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../PizzaGame/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 637852049270000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2164192
+  Exists: 1
 --- !u!114 &6810053348205599311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,4 +246,24 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &8303584067551613694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interactable.bank
+  m_EditorClassIdentifier: 
+  Path: ../PizzaGame/Build/Desktop/Interactable.bank
+  Name: Interactable
+  StudioPath: bank:/Interactable
+  lastModified: 637852049270000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1239648
   Exists: 1

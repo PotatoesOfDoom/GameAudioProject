@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3d39fc82-6aa6-4fe4-a8a0-58b98e3cb037}">
+		<property name="assetPath">
+			<value>You Hvae To Go 42 Block in 7.5 Minutes.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.8125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{12b0b6a1-2cf2-4b87-b4e5-bdcc03c66461}</destination>
+		</relationship>
+	</object>
+</objects>
