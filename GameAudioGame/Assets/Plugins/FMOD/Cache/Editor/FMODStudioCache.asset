@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637865670550000000
+  lastModified: 637865683440000000
   FileSizes:
   - Name: Desktop
     Value: 1390
@@ -114,10 +114,10 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637865670550000000
+  lastModified: 637865683440000000
   FileSizes:
   - Name: Desktop
-    Value: 1554
+    Value: 1648
   Exists: 1
 --- !u!114 &-1399178700771058503
 MonoBehaviour:
@@ -192,6 +192,7 @@ MonoBehaviour:
   - {fileID: -7382351926339730373}
   - {fileID: 6384879288570658167}
   - {fileID: 8577550980364968673}
+  - {fileID: 7934003365678169443}
   EditorEvents:
   - {fileID: 3261795787710383163}
   - {fileID: -4307749891091782206}
@@ -199,6 +200,7 @@ MonoBehaviour:
   - {fileID: -8967126840714364390}
   - {fileID: -1399178700771058503}
   - {fileID: 6085293513517122414}
+  - {fileID: 2524388187528042158}
   EditorParameters:
   - {fileID: 1951876939307453044}
   - {fileID: -3187138078356596887}
@@ -206,7 +208,7 @@ MonoBehaviour:
   - {fileID: -7382351926339730373}
   StringsBanks:
   - {fileID: -1612277964555667729}
-  cacheTime: 637865670550000000
+  cacheTime: 637865683450000000
   cacheVersion: 10
 --- !u!114 &1951876939307453044
 MonoBehaviour:
@@ -232,6 +234,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &2524388187528042158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EnvironmentalSounds/Park
+  m_EditorClassIdentifier: 
+  Path: event:/EnvironmentalSounds/Park
+  Guid:
+    Data1: -115051584
+    Data2: 1118343512
+    Data3: -663859058
+    Data4: 1117170540
+  Banks:
+  - {fileID: 7934003365678169443}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 67902
 --- !u!114 &3261795787710383163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,7 +354,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637865670550000000
+  lastModified: 637852049270000000
   FileSizes:
   - Name: Desktop
     Value: 2164192
@@ -354,6 +383,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &7934003365678169443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../PizzaGame/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 637865683450000000
+  FileSizes:
+  - Name: Desktop
+    Value: 666912
+  Exists: 1
 --- !u!114 &8303584067551613694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,7 +418,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Interactable.bank
   Name: Interactable
   StudioPath: bank:/Interactable
-  lastModified: 637865670550000000
+  lastModified: 637852049270000000
   FileSizes:
   - Name: Desktop
     Value: 1239648
@@ -389,7 +438,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Collisions.bank
   Name: Collisions
   StudioPath: bank:/Collisions
-  lastModified: 637865670550000000
+  lastModified: 637865679090000000
   FileSizes:
   - Name: Desktop
     Value: 500416
