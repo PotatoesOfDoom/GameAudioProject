@@ -12,341 +12,67 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49503
+50002
 Successfully changed project path to: /Users/sam/Desktop/GameAudioProject/GameAudioGame
 /Users/sam/Desktop/GameAudioProject/GameAudioGame
 Using Asset Import Pipeline V2.
 Platform WindowsStandaloneSupport does not support graphics device type 
 
-Refreshing native plugins compatible for Editor in 55.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/sam/Desktop/GameAudioProject/GameAudioGame/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-26 09:48:17.923 Unity[689:1910524] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
-2022-04-26 09:48:17.923 Unity[689:1910524] Metal devices available: 1
-2022-04-26 09:48:17.923 Unity[689:1910524] 0: Intel(R) Iris(TM) Plus Graphics (low power)
-2022-04-26 09:48:17.923 Unity[689:1910524] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+2022-04-26 10:23:54.094 Unity[4333:1951603] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-04-26 10:23:54.094 Unity[4333:1951603] Metal devices available: 1
+2022-04-26 10:23:54.094 Unity[4333:1951603] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-04-26 10:23:54.094 Unity[4333:1951603] Using device Intel(R) Iris(TM) Plus Graphics (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56689
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56333
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000432 seconds.
+Registered in 0.002081 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 47.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.608 seconds
+- Completed reload, in  1.588 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001371 seconds.
+Registered in 0.003572 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
+- Completed reload, in  1.048 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Platform WindowsStandaloneSupport does not support graphics device type 
 
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1301 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.5 MB.
+System memory in use before: 119.5 MB.
+System memory in use after: 119.6 MB.
 
-Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 1689.
-Total: 2.111659 ms (FindLiveObjects: 0.179025 ms CreateObjectMapping: 0.037598 ms MarkObjects: 1.792991 ms  DeleteObjects: 0.093501 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Animations/theboss.fbx
-  artifactKey: Guid(20860739d727743a1ad4f8c2abda5b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/theboss.fbx using Guid(20860739d727743a1ad4f8c2abda5b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59a81430e83589d4befcb8d857e6d5c') in 1.370894 seconds
-  Import took 1.373822 seconds .
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 2.903403 ms (FindLiveObjects: 0.224559 ms CreateObjectMapping: 0.074765 ms MarkObjects: 2.415519 ms  DeleteObjects: 0.186851 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Prefabs/Checkpoint.prefab
-  artifactKey: Guid(daa95576f5acf48728739ba430173205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Checkpoint.prefab using Guid(daa95576f5acf48728739ba430173205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a34d542419b8354d567ba61bc91cbed') in 0.525642 seconds
-  Import took 0.527656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Animations/3a035256-f543-4bc7-905d-11d5182ebfd1@Macarena Dance.fbx
-  artifactKey: Guid(1fa1374466f6f49d090c28eb9dcec9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/3a035256-f543-4bc7-905d-11d5182ebfd1@Macarena Dance.fbx using Guid(1fa1374466f6f49d090c28eb9dcec9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231c24ae79ef42e5f92ba779a6ee1ed7') in 0.066231 seconds
-  Import took 0.070834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Animations/cb6e0ad8-6add-43a6-8f56-a3286e1c903c@Belly Dance.fbx
-  artifactKey: Guid(19910a8971ef941d4b2b90e19cb61145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/cb6e0ad8-6add-43a6-8f56-a3286e1c903c@Belly Dance.fbx using Guid(19910a8971ef941d4b2b90e19cb61145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144f45fb5f62168fe3679dd4f2d570bf') in 0.062135 seconds
-  Import took 0.066821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbx
-  artifactKey: Guid(d50c2d35a6f764edab8131299a505abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbx using Guid(d50c2d35a6f764edab8131299a505abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dafafa96658ee176df792e6265f38b8') in 0.068490 seconds
-  Import took 0.074262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Scenes/dd2atwn-916c8e06-c911-4b87-8126-768b2425397d.png
-  artifactKey: Guid(9729fafb4149b694e89677c6f5ca9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/dd2atwn-916c8e06-c911-4b87-8126-768b2425397d.png using Guid(9729fafb4149b694e89677c6f5ca9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b774ba28cad944a6704861fa9eb40fc2') in 1.239700 seconds
-  Import took 1.241885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Animations/4cbf3187-aa97-4104-9bff-a799ec0878bd@Chicken Dance.fbx
-  artifactKey: Guid(6e24fc89908b34f128ceb5d556eaab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/4cbf3187-aa97-4104-9bff-a799ec0878bd@Chicken Dance.fbx using Guid(6e24fc89908b34f128ceb5d556eaab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795fc4bbda8ef0eae9e1f08d38a42a33') in 0.086807 seconds
-  Import took 0.094235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Animations/sporty_granny@Stumble Backwards.fbx
-  artifactKey: Guid(2dd96c1c30830934694207c1fa419e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/sporty_granny@Stumble Backwards.fbx using Guid(2dd96c1c30830934694207c1fa419e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec8532a01bae4da0ea75f68890c2c42') in 0.012170 seconds
-  Import took 0.016092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Animations/bigvegas.fbx
-  artifactKey: Guid(d4a7c3a47824a46bf9a6d46bc9f02cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/bigvegas.fbx using Guid(d4a7c3a47824a46bf9a6d46bc9f02cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9583f11f8f464bf3fdffb1464d397fe') in 0.106717 seconds
-  Import took 0.110100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Animations/Remy.fbx
-  artifactKey: Guid(fc744234c2b2346559ea743257a23f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Remy.fbx using Guid(fc744234c2b2346559ea743257a23f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f2411b796f1b9c5e109fafca2f0816') in 0.513129 seconds
-  Import took 0.515891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Animations/sporty_granny@Shoulder Hit And Fall.fbx
-  artifactKey: Guid(dd43133e31614b4449caaef13057af74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/sporty_granny@Shoulder Hit And Fall.fbx using Guid(dd43133e31614b4449caaef13057af74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335435b9f99b9d670a45d64457efcec2') in 0.008403 seconds
-  Import took 0.010801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Animations/sporty_granny@Standing Death Left 01.fbx
-  artifactKey: Guid(3deab5b6514e3da4d8100ee9aa3fcec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/sporty_granny@Standing Death Left 01.fbx using Guid(3deab5b6514e3da4d8100ee9aa3fcec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f81d86bd636fa5422ca34cfe748fc6') in 0.008902 seconds
-  Import took 0.012065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Materials/Target.mat
-  artifactKey: Guid(8aacab0b974ba1f458fd918853d181dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Target.mat using Guid(8aacab0b974ba1f458fd918853d181dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d00feeccf57d4ddaaae9745b26bb50') in 0.519457 seconds
-  Import took 0.522149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Animations/Ch06_nonPBR.fbx
-  artifactKey: Guid(d6d4b645d250a4585a668074b345ad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Ch06_nonPBR.fbx using Guid(d6d4b645d250a4585a668074b345ad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0ee50a17a3bfe143016a1b474e8c6b') in 0.070776 seconds
-  Import took 0.073242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Animations/sporty_granny@Knocked Out.fbx
-  artifactKey: Guid(68017f2e03862c1438a924a472c761dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/sporty_granny@Knocked Out.fbx using Guid(68017f2e03862c1438a924a472c761dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2e247702f38024143757632c8b79d5') in 0.005726 seconds
-  Import took 0.008058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Animations/sporty_granny@Idle.fbx
-  artifactKey: Guid(c4cad19493cfa1749840e345b7456ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/sporty_granny@Idle.fbx using Guid(c4cad19493cfa1749840e345b7456ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703204e26ef0a8e4b865e5b134d595ee') in 0.006489 seconds
-  Import took 0.009457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Animations/Ch39_nonPBR.fbx
-  artifactKey: Guid(a233e97e381a84d62a22e7b8de700cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Ch39_nonPBR.fbx using Guid(a233e97e381a84d62a22e7b8de700cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea268cf82ee04dc89f57aecf957e4e88') in 0.043985 seconds
-  Import took 0.046735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Animations/Ch16_nonPBR.fbx
-  artifactKey: Guid(bac9e053468c44591b50e4da75c1b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Ch16_nonPBR.fbx using Guid(bac9e053468c44591b50e4da75c1b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb05ecda9aa5917efbd686ac1f80dc0') in 0.162315 seconds
-  Import took 0.164658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Animations/Ch31_nonPBR.fbx
-  artifactKey: Guid(0287ab74fcf784a3ca33d78083a521d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Ch31_nonPBR.fbx using Guid(0287ab74fcf784a3ca33d78083a521d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d884c597d5dc8204453f387bdfeb43') in 0.125795 seconds
-  Import took 0.128070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Animations/sporty_granny.fbx
-  artifactKey: Guid(564a7af485b03864696345ddb220df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/sporty_granny.fbx using Guid(564a7af485b03864696345ddb220df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9756221ea104a48c9611890a50e3fb51') in 0.111191 seconds
-  Import took 0.113491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Materials/Car.mat
-  artifactKey: Guid(74c37003f1bebd945b6013c9e6adf685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Car.mat using Guid(74c37003f1bebd945b6013c9e6adf685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9fee91a08bde6aecee23567d84de00') in 0.009115 seconds
-  Import took 0.011306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Animations/322f854e-4bbf-4e94-b9a2-c3397359267c@Wave Hip Hop Dance.fbx
-  artifactKey: Guid(88adaffdb62ad461d8beb3ec3ffdc9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/322f854e-4bbf-4e94-b9a2-c3397359267c@Wave Hip Hop Dance.fbx using Guid(88adaffdb62ad461d8beb3ec3ffdc9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcc56dcc94f54edf293819950ea661a') in 0.070312 seconds
-  Import took 0.076129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Animations/sporty_granny@Falling Forward Death.fbx
-  artifactKey: Guid(f1f60c34599edf345a601bacbd6bf52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/sporty_granny@Falling Forward Death.fbx using Guid(f1f60c34599edf345a601bacbd6bf52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5afb62e37b763be903d60e58e3f9e17') in 0.006090 seconds
-  Import took 0.008821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Materials/Wheel.mat
-  artifactKey: Guid(c55f788f9034d044cbb7f5a9a317af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wheel.mat using Guid(c55f788f9034d044cbb7f5a9a317af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c8001bc84e1d301f31f30a56770e2c') in 0.008875 seconds
-  Import took 0.011301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Prefabs/sporty_granny Variant.prefab
-  artifactKey: Guid(d123b6f9742d11b40a0025bd99837972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/sporty_granny Variant.prefab using Guid(d123b6f9742d11b40a0025bd99837972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53f3020944d83231e1826a2efb7df2a') in 0.048477 seconds
-  Import took 0.051295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Animations/Ch14_nonPBR.fbx
-  artifactKey: Guid(559cbdf87c0f94717b2292f3fab76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Ch14_nonPBR.fbx using Guid(559cbdf87c0f94717b2292f3fab76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8d9d224e7d2d1e96cc92951902f166') in 0.038473 seconds
-  Import took 0.041347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Materials/Metal.mat
-  artifactKey: Guid(6e9115f7d49668f43a747c78b68a36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Metal.mat using Guid(6e9115f7d49668f43a747c78b68a36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac031d0f0dda6256f6e219568b0a323') in 0.009845 seconds
-  Import took 0.012844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Materials/s-l400.jpg
-  artifactKey: Guid(1e4ca7bb84b68fd41917a2f339cc3cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/s-l400.jpg using Guid(1e4ca7bb84b68fd41917a2f339cc3cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2798b563415da2a0128533f8701812e9') in 1.230453 seconds
-  Import took 1.232987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Materials/Checkpoint.mat
-  artifactKey: Guid(667956c83acde4147ad03d33bf7a29a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Checkpoint.mat using Guid(667956c83acde4147ad03d33bf7a29a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb04819bdf0439c4c9ffd90fed387b5') in 0.014088 seconds
-  Import took 0.017684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.139728 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(8b3e6ee02caa2d243a36ae1ced8e6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(8b3e6ee02caa2d243a36ae1ced8e6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2bbfe42d2b01c0198e30afe185c77d') in 0.001033 seconds
-  Import took 0.003224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.894402 seconds.
-  path: Assets/Scenes/GameScene
-  artifactKey: Guid(0608d483eb4448c4390235902f399739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene using Guid(0608d483eb4448c4390235902f399739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cae6772f3cfff74cf774594be416466') in 0.001213 seconds
-  Import took 0.003703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.119848 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(a3ce6cd52c032fd4391b60e6760d2726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(a3ce6cd52c032fd4391b60e6760d2726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6d9a0f3374ada995c3a4b53c9a13f7') in 0.001646 seconds
-  Import took 0.004281 seconds .
-
-========================================================================
-Received Prepare
-Platform WindowsStandaloneSupport does not support graphics device type 
-
-Registering precompiled user dll's ...
-Registered in 0.009389 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL
-Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.dylib
-Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.so
-Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.bundle
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1293 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.0 MB.
-System memory in use after: 161.1 MB.
-
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 1741.
-Total: 1.963207 ms (FindLiveObjects: 0.293950 ms CreateObjectMapping: 0.080554 ms MarkObjects: 1.540910 ms  DeleteObjects: 0.046158 ms)
+  path: Assets/Prefabs
+  artifactKey: Guid(6cc187dac1f2a30428f9e7bf62e8e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(6cc187dac1f2a30428f9e7bf62e8e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c148af2d5ba0ae458bacbb562ab15d5') in 0.009429 seconds
+  Import took 0.013735 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
