@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{fa3f6b5c-7e05-4af0-a7ee-5618d30492b6}">
+		<property name="name">
+			<value>Dream_State</value>
+		</property>
+		<relationship name="folder">
+			<destination>{daa2cde6-7ad9-4331-af6a-7067d9a406b3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bb4e6a8c-5b3e-427e-a71f-d141b9e16209}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bb4e6a8c-5b3e-427e-a71f-d141b9e16209}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

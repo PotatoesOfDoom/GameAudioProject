@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a5ce34ab-1d2e-48fb-b6e3-363e081b6c7d}">
+		<property name="name">
+			<value>Tension_State</value>
+		</property>
+		<relationship name="folder">
+			<destination>{daa2cde6-7ad9-4331-af6a-7067d9a406b3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b9672703-52da-4544-84f7-1420c84f19ed}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b9672703-52da-4544-84f7-1420c84f19ed}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{95ab01e8-3541-4710-8d06-52c481d5efd0}">
+		<property name="name">
+			<value>Countdown</value>
+		</property>
+		<relationship name="folder">
+			<destination>{daa2cde6-7ad9-4331-af6a-7067d9a406b3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b11b6886-ca6a-4e42-bbc4-bac96644218a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b11b6886-ca6a-4e42-bbc4-bac96644218a}">
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
