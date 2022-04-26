@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PersonColision : MonoBehaviour
 {
+    private FMOD.Studio.EventInstance carCollision;
+    
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Person")
@@ -17,10 +19,13 @@ public class PersonColision : MonoBehaviour
 
         if (collision.gameObject.tag == "Car")
         {
-            Debug.Log("explode");
+            carCollision = FMODUnity.RuntimeManager.CreateInstance("event:/Interactable/Collisions/CarHit");
+            carCollision.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+            carCollision.start();
+            carCollision.release();
             var car = collision.gameObject;
             car.GetComponent<Rigidbody>().AddExplosionForce(500, car.transform.position, 10.0f, 10.0F);
-            //person.GetComponent<Collider>().enabled = false;
+            
         }
     }
 }

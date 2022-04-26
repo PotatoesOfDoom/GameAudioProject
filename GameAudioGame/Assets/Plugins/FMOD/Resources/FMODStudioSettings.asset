@@ -489,6 +489,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Collisions
   - Interactable
   - Music
   BanksToLoad: []

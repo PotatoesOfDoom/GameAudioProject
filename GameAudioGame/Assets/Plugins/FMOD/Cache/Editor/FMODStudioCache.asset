@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637852049270000000
+  lastModified: 637865670550000000
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1390
   Exists: 1
 --- !u!114 &-4307749891091782206
 MonoBehaviour:
@@ -75,6 +75,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 910
+--- !u!114 &-3187138078356596887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dream_State
+  m_EditorClassIdentifier: 
+  Name: Dream_State
+  StudioPath: parameter:/Dream_State
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 952934172
+    data2: 3044485030
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1612277964555667729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,11 +114,38 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637852049270000000
+  lastModified: 637865670550000000
   FileSizes:
   - Name: Desktop
-    Value: 1150
+    Value: 1554
   Exists: 1
+--- !u!114 &-1399178700771058503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactable/Collisions/CarHit
+  m_EditorClassIdentifier: 
+  Path: event:/Interactable/Collisions/CarHit
+  Guid:
+    Data1: -1742812490
+    Data2: 1264172484
+    Data3: -30924897
+    Data4: 799562676
+  Banks:
+  - {fileID: 8577550980364968673}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-463566837161177989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,18 +191,47 @@ MonoBehaviour:
   - {fileID: 8303584067551613694}
   - {fileID: -7382351926339730373}
   - {fileID: 6384879288570658167}
+  - {fileID: 8577550980364968673}
   EditorEvents:
   - {fileID: 3261795787710383163}
   - {fileID: -4307749891091782206}
   - {fileID: -463566837161177989}
   - {fileID: -8967126840714364390}
-  EditorParameters: []
+  - {fileID: -1399178700771058503}
+  - {fileID: 6085293513517122414}
+  EditorParameters:
+  - {fileID: 1951876939307453044}
+  - {fileID: -3187138078356596887}
   MasterBanks:
   - {fileID: -7382351926339730373}
   StringsBanks:
   - {fileID: -1612277964555667729}
-  cacheTime: 637852049270000000
+  cacheTime: 637865670550000000
   cacheVersion: 10
+--- !u!114 &1951876939307453044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Tension_State
+  m_EditorClassIdentifier: 
+  Name: Tension_State
+  StudioPath: parameter:/Tension_State
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2784711027
+    data2: 4019115767
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3261795787710383163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +283,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6085293513517122414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactable/Collisions/CarLand
+  m_EditorClassIdentifier: 
+  Path: event:/Interactable/Collisions/CarLand
+  Guid:
+    Data1: 244584999
+    Data2: 1268854587
+    Data3: 549852334
+    Data4: 1023192119
+  Banks:
+  - {fileID: 8577550980364968673}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &6384879288570658167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,7 +325,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637852049270000000
+  lastModified: 637865670550000000
   FileSizes:
   - Name: Desktop
     Value: 2164192
@@ -262,8 +369,28 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Interactable.bank
   Name: Interactable
   StudioPath: bank:/Interactable
-  lastModified: 637852049270000000
+  lastModified: 637865670550000000
   FileSizes:
   - Name: Desktop
     Value: 1239648
+  Exists: 1
+--- !u!114 &8577550980364968673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Collisions.bank
+  m_EditorClassIdentifier: 
+  Path: ../PizzaGame/Build/Desktop/Collisions.bank
+  Name: Collisions
+  StudioPath: bank:/Collisions
+  lastModified: 637865670550000000
+  FileSizes:
+  - Name: Desktop
+    Value: 500416
   Exists: 1
