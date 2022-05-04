@@ -404,22 +404,1885 @@ Received Prepare
 Platform WindowsStandaloneSupport does not support graphics device type 
 
 Registering precompiled user dll's ...
-Registered in 0.003306 seconds.
+Registered in 0.002242 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
+- Completed reload, in  0.947 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1704 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.2 MB.
-System memory in use after: 160.3 MB.
+Unloading 1703 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.6 MB.
+System memory in use after: 159.8 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2121.
-Total: 1.703319 ms (FindLiveObjects: 0.196047 ms CreateObjectMapping: 0.063260 ms MarkObjects: 1.420665 ms  DeleteObjects: 0.022519 ms)
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 1.541090 ms (FindLiveObjects: 0.177689 ms CreateObjectMapping: 0.049659 ms MarkObjects: 1.290532 ms  DeleteObjects: 0.022161 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2873.232270 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(6cc187dac1f2a30428f9e7bf62e8e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(6cc187dac1f2a30428f9e7bf62e8e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c148af2d5ba0ae458bacbb562ab15d5') in 0.004189 seconds
+  Import took 0.007204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049948 seconds.
+  path: Assets/Prefabs/Checkpoint.prefab
+  artifactKey: Guid(daa95576f5acf48728739ba430173205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Checkpoint.prefab using Guid(daa95576f5acf48728739ba430173205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a34d542419b8354d567ba61bc91cbed') in 1.356608 seconds
+  Import took 1.359184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Prefabs/sporty_granny Variant.prefab
+  artifactKey: Guid(d123b6f9742d11b40a0025bd99837972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sporty_granny Variant.prefab using Guid(d123b6f9742d11b40a0025bd99837972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7065c04a1f51ceb7b2d5f41eafc913dc') in 0.491877 seconds
+  Import took 0.494719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594851 seconds.
+  path: Assets/Animations/3a035256-f543-4bc7-905d-11d5182ebfd1@Macarena Dance.fbx
+  artifactKey: Guid(1fa1374466f6f49d090c28eb9dcec9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/3a035256-f543-4bc7-905d-11d5182ebfd1@Macarena Dance.fbx using Guid(1fa1374466f6f49d090c28eb9dcec9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231c24ae79ef42e5f92ba779a6ee1ed7') in 0.683152 seconds
+  Import took 0.688313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Animations/theboss.fbx
+  artifactKey: Guid(20860739d727743a1ad4f8c2abda5b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/theboss.fbx using Guid(20860739d727743a1ad4f8c2abda5b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59a81430e83589d4befcb8d857e6d5c') in 0.134332 seconds
+  Import took 0.137521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Animations/cb6e0ad8-6add-43a6-8f56-a3286e1c903c@Belly Dance.fbx
+  artifactKey: Guid(19910a8971ef941d4b2b90e19cb61145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/cb6e0ad8-6add-43a6-8f56-a3286e1c903c@Belly Dance.fbx using Guid(19910a8971ef941d4b2b90e19cb61145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144f45fb5f62168fe3679dd4f2d570bf') in 0.050242 seconds
+  Import took 0.054458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbx
+  artifactKey: Guid(d50c2d35a6f764edab8131299a505abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbx using Guid(d50c2d35a6f764edab8131299a505abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dafafa96658ee176df792e6265f38b8') in 0.059613 seconds
+  Import took 0.065685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Animations/4cbf3187-aa97-4104-9bff-a799ec0878bd@Chicken Dance.fbx
+  artifactKey: Guid(6e24fc89908b34f128ceb5d556eaab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/4cbf3187-aa97-4104-9bff-a799ec0878bd@Chicken Dance.fbx using Guid(6e24fc89908b34f128ceb5d556eaab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795fc4bbda8ef0eae9e1f08d38a42a33') in 0.048683 seconds
+  Import took 0.053344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Animations/sporty_granny@Stumble Backwards.fbx
+  artifactKey: Guid(2dd96c1c30830934694207c1fa419e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/sporty_granny@Stumble Backwards.fbx using Guid(2dd96c1c30830934694207c1fa419e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec8532a01bae4da0ea75f68890c2c42') in 0.007883 seconds
+  Import took 0.010418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Animations/bigvegas.fbx
+  artifactKey: Guid(d4a7c3a47824a46bf9a6d46bc9f02cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/bigvegas.fbx using Guid(d4a7c3a47824a46bf9a6d46bc9f02cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9583f11f8f464bf3fdffb1464d397fe') in 0.169706 seconds
+  Import took 0.172278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Animations/Remy.fbx
+  artifactKey: Guid(fc744234c2b2346559ea743257a23f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Remy.fbx using Guid(fc744234c2b2346559ea743257a23f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f2411b796f1b9c5e109fafca2f0816') in 0.455116 seconds
+  Import took 0.457659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Animations/sporty_granny@Shoulder Hit And Fall.fbx
+  artifactKey: Guid(dd43133e31614b4449caaef13057af74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/sporty_granny@Shoulder Hit And Fall.fbx using Guid(dd43133e31614b4449caaef13057af74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335435b9f99b9d670a45d64457efcec2') in 0.007204 seconds
+  Import took 0.009934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Animations/sporty_granny@Standing Death Left 01.fbx
+  artifactKey: Guid(3deab5b6514e3da4d8100ee9aa3fcec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/sporty_granny@Standing Death Left 01.fbx using Guid(3deab5b6514e3da4d8100ee9aa3fcec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f81d86bd636fa5422ca34cfe748fc6') in 0.006868 seconds
+  Import took 0.010150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Animations/Ch06_nonPBR.fbx
+  artifactKey: Guid(d6d4b645d250a4585a668074b345ad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch06_nonPBR.fbx using Guid(d6d4b645d250a4585a668074b345ad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0ee50a17a3bfe143016a1b474e8c6b') in 0.041424 seconds
+  Import took 0.044370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Animations/sporty_granny@Knocked Out.fbx
+  artifactKey: Guid(68017f2e03862c1438a924a472c761dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/sporty_granny@Knocked Out.fbx using Guid(68017f2e03862c1438a924a472c761dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2e247702f38024143757632c8b79d5') in 0.007566 seconds
+  Import took 0.010046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Animations/sporty_granny@Idle.fbx
+  artifactKey: Guid(c4cad19493cfa1749840e345b7456ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/sporty_granny@Idle.fbx using Guid(c4cad19493cfa1749840e345b7456ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703204e26ef0a8e4b865e5b134d595ee') in 0.006756 seconds
+  Import took 0.009502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Animations/Ch39_nonPBR.fbx
+  artifactKey: Guid(a233e97e381a84d62a22e7b8de700cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch39_nonPBR.fbx using Guid(a233e97e381a84d62a22e7b8de700cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea268cf82ee04dc89f57aecf957e4e88') in 0.031830 seconds
+  Import took 0.034693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Animations/Ch16_nonPBR.fbx
+  artifactKey: Guid(bac9e053468c44591b50e4da75c1b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch16_nonPBR.fbx using Guid(bac9e053468c44591b50e4da75c1b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb05ecda9aa5917efbd686ac1f80dc0') in 0.108565 seconds
+  Import took 0.111159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Animations/Ch31_nonPBR.fbx
+  artifactKey: Guid(0287ab74fcf784a3ca33d78083a521d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch31_nonPBR.fbx using Guid(0287ab74fcf784a3ca33d78083a521d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d884c597d5dc8204453f387bdfeb43') in 0.084240 seconds
+  Import took 0.086797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Animations/sporty_granny.fbx
+  artifactKey: Guid(564a7af485b03864696345ddb220df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/sporty_granny.fbx using Guid(564a7af485b03864696345ddb220df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9060c939bbc90b8535f7920d455b4') in 0.085892 seconds
+  Import took 0.088766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Animations/322f854e-4bbf-4e94-b9a2-c3397359267c@Wave Hip Hop Dance.fbx
+  artifactKey: Guid(88adaffdb62ad461d8beb3ec3ffdc9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/322f854e-4bbf-4e94-b9a2-c3397359267c@Wave Hip Hop Dance.fbx using Guid(88adaffdb62ad461d8beb3ec3ffdc9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcc56dcc94f54edf293819950ea661a') in 0.050908 seconds
+  Import took 0.055438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Animations/sporty_granny@Falling Forward Death.fbx
+  artifactKey: Guid(f1f60c34599edf345a601bacbd6bf52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/sporty_granny@Falling Forward Death.fbx using Guid(f1f60c34599edf345a601bacbd6bf52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5afb62e37b763be903d60e58e3f9e17') in 0.006618 seconds
+  Import took 0.009347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Animations/Ch14_nonPBR.fbx
+  artifactKey: Guid(559cbdf87c0f94717b2292f3fab76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch14_nonPBR.fbx using Guid(559cbdf87c0f94717b2292f3fab76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8d9d224e7d2d1e96cc92951902f166') in 0.027762 seconds
+  Import took 0.030598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.460229 seconds.
+  path: Assets/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbx using Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e79dcab32e28383e837bee81f93fa8a') in 0.053212 seconds
+  Import took 0.057384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.314439 seconds.
+  path: Assets/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbx using Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d483344b94ab6ad29919026a8ae822') in 0.045298 seconds
+  Import took 0.049879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.923815 seconds.
+  path: Assets/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbx using Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f46bc0e9f152f453bb4e317d171e79') in 0.050807 seconds
+  Import took 0.056213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.522817 seconds.
+  path: Assets/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbx using Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f2e7c248b0e7137158940d8c795901') in 0.047560 seconds
+  Import took 0.051584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.986773 seconds.
+  path: Assets/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbx using Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc747488e915d468098749abd567e106') in 0.049522 seconds
+  Import took 0.053597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.179854 seconds.
+  path: Assets/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbx using Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116d1a14cc4aa67266367043b21a1e7a') in 0.050609 seconds
+  Import took 0.055161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.985496 seconds.
+  path: Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbx
+  artifactKey: Guid(d50c2d35a6f764edab8131299a505abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbx using Guid(d50c2d35a6f764edab8131299a505abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f054d92e14382dbf8e6dab7ac05e4b62') in 0.054653 seconds
+  Import took 0.059298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.772786 seconds.
+  path: Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbx
+  artifactKey: Guid(d50c2d35a6f764edab8131299a505abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbx using Guid(d50c2d35a6f764edab8131299a505abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aafb3d207bbae6a35b2f98bf797bb0') in 0.058173 seconds
+  Import took 0.062542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.076726 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm
+  artifactKey: Guid(531f0457496844620b2c8cb9a1cc1d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm using Guid(531f0457496844620b2c8cb9a1cc1d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c15aedea51b5c622d55bf0e367f4696') in 0.003333 seconds
+  Import took 0.005703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.018323 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013582 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.016294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006975 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006836 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007530 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008920 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007385 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009813 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010481 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005910 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006733 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024661 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008035 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007221 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002210 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007275 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006429 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005582 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008141 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006274 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007203 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020390 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008682 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006137 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004006 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007126 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005978 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007342 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008670 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006397 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007575 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005884 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011140 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008030 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006097 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000917 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007289 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005947 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.007891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012056 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008391 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006197 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007476 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006583 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010265 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007857 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005872 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.007992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003235 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007184 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005732 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.007942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010595 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009618 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006382 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007216 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018825 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008057 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006569 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001082 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007643 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005781 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.007911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010901 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008429 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006307 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002482 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008506 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006008 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008520 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007963 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005985 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002922 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007279 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005810 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.007945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010062 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008341 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007166 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001554 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007543 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005866 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010266 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009057 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006077 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007076 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005957 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011677 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007828 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006339 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002957 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008424 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006005 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008219 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008174 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006189 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002193 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007335 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006280 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009920 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008307 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006981 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001062 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007482 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006001 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010917 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008150 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006110 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001202 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006875 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005660 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.007765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012259 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009289 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005968 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006954 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023597 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007945 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006311 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004380 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007723 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007570 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002713 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008112 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006442 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001203 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008969 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007039 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007389 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008350 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007534 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001187 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008690 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006574 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006497 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008357 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006445 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002122 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007554 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005580 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.007574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009640 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009365 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006050 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007071 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010490 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014366 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.016938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008142 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007179 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021948 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008509 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006087 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007179 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006967 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006248 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005338 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008037 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005985 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006720 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021382 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007963 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006364 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004909 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006636 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005643 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.007988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008597 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007759 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006191 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007718 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020189 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007737 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006199 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001786 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008282 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006081 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007377 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009885 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005909 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006838 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022564 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006247 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009808 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009088 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007055 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014368 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.016780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008666 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006281 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020581 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008659 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007659 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007887 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005866 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008846 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010052 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007429 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007236 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018005 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008835 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006987 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001024 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006863 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005929 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013571 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007718 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006114 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006916 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019137 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009816 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006158 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006511 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020610 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008185 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007982 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003694 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007201 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005912 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006912 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010153 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006271 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007295 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018387 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009869 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006206 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007076 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006189 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012767 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007734 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006046 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007260 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018793 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009844 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.012170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006280 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001772 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007156 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.009527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005893 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012348 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008510 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005885 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008006 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.010209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017280 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008975 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.011286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png
+  artifactKey: Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Normal.png using Guid(6400a8990d5ed4381b76925eb3ca342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006833 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_normal.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png
+  artifactKey: Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbm/Wolf3D_Avatar_Diffuse.png using Guid(df5de83bca2e84b6b85daf8273dcb973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006571 seconds
+  ERROR: Build asset version error: assets/animations/jazz dancing.fbm/wolf3d_avatar_diffuse.png in SourceAssetDB has modification time of '2022-05-04T12:11:21Z' while content on disk has modification time of '2022-05-04T12:12:35Z'
+  Import took 0.008992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.355117 seconds.
+  path: Assets/Animations/bigvegas.fbx
+  artifactKey: Guid(d4a7c3a47824a46bf9a6d46bc9f02cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/bigvegas.fbx using Guid(d4a7c3a47824a46bf9a6d46bc9f02cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282fba816412da63af8f758eacd2e713') in 0.067012 seconds
+  Import took 0.069753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.056983 seconds.
+  path: Assets/Animations/Ch14_nonPBR.fbx
+  artifactKey: Guid(559cbdf87c0f94717b2292f3fab76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch14_nonPBR.fbx using Guid(559cbdf87c0f94717b2292f3fab76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7054c21210a0924894581661036c49') in 0.035183 seconds
+  Import took 0.038349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.542535 seconds.
+  path: Assets/Animations/Ch14_nonPBR.fbx
+  artifactKey: Guid(559cbdf87c0f94717b2292f3fab76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch14_nonPBR.fbx using Guid(559cbdf87c0f94717b2292f3fab76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ac46607e1126b7190aabe8ef3e374b') in 0.047479 seconds
+  Import took 0.050389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.993587 seconds.
+  path: Assets/Animations/Granny.controller
+  artifactKey: Guid(a30b43e0d0d23324684aa9012b63c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Granny.controller using Guid(a30b43e0d0d23324684aa9012b63c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d0878a680b81410d5e6d5d6346e00c') in 0.265725 seconds
+  Import took 0.268410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.397372 seconds.
+  path: Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbm
+  artifactKey: Guid(e5a421dae1d884f928ad59055eb27281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/dd3415c0-5d6b-43a7-9c2c-dad034ea0bc9@Dancing Twerk.fbm using Guid(e5a421dae1d884f928ad59055eb27281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f680e7a61772ba154b9bfd499a3936c') in 0.006123 seconds
+  Import took 0.008923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.034203 seconds.
+  path: Assets/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbx using Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d2836c8ea1499b210bd97c71bde8fd') in 0.058701 seconds
+  Import took 0.062887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002864 seconds.
+  path: Assets/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazz Dancing.fbx using Guid(0cc455ffaf5904e55b564d575991a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d2836c8ea1499b210bd97c71bde8fd') in 0.046980 seconds
+  Import took 0.051443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.886343 seconds.
+  path: Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing.fbx
+  artifactKey: Guid(12dad8becd3274c2c8c59e8f669be246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing.fbx using Guid(12dad8becd3274c2c8c59e8f669be246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2e278fdaa2df04cf9fb682fa90a41f') in 0.060785 seconds
+  Import took 0.065389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.210017 seconds.
+  path: Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing.fbx
+  artifactKey: Guid(12dad8becd3274c2c8c59e8f669be246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing.fbx using Guid(12dad8becd3274c2c8c59e8f669be246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18956ec74936c21f987834b0ee245c0f') in 0.050633 seconds
+  Import took 0.054867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.028013 seconds.
+  path: Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing.fbx
+  artifactKey: Guid(12dad8becd3274c2c8c59e8f669be246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing.fbx using Guid(12dad8becd3274c2c8c59e8f669be246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caa9b05ed6eb6cbe85551d8871c33b5') in 0.054824 seconds
+  Import took 0.059042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.724219 seconds.
+  path: Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing-2.fbx
+  artifactKey: Guid(94d15da0b13dd49ec82a3593794f9a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing-2.fbx using Guid(94d15da0b13dd49ec82a3593794f9a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd6a9aad4a174329180980c85b53eb') in 0.054956 seconds
+  Import took 0.059632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.051493 seconds.
+  path: Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing-2.fbx
+  artifactKey: Guid(94d15da0b13dd49ec82a3593794f9a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/5cf79662-3c6c-4033-a59e-0a546f3d2297@Jazz Dancing-2.fbx using Guid(94d15da0b13dd49ec82a3593794f9a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208cb2f292b93c1a7c6d29d030e95e44') in 0.051666 seconds
+  Import took 0.055644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.322493 seconds.
+  path: Assets/Animations/Jazzy.controller
+  artifactKey: Guid(b899d594af4a643e283affac3c84d3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jazzy.controller using Guid(b899d594af4a643e283affac3c84d3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939decacaaa5b0951860ea52e0f4a410') in 0.004891 seconds
+  Import took 0.007639 seconds .
 
 ========================================================================
 Received Prepare
