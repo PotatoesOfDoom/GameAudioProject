@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637865695350000000
+  lastModified: 637871153453232313
   FileSizes:
   - Name: Desktop
     Value: 1390
@@ -114,7 +114,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637865695350000000
+  lastModified: 637871153453233092
   FileSizes:
   - Name: Desktop
     Value: 1714
@@ -209,7 +209,7 @@ MonoBehaviour:
   - {fileID: -7382351926339730373}
   StringsBanks:
   - {fileID: -1612277964555667729}
-  cacheTime: 637865695360000000
+  cacheTime: 637871153453293202
   cacheVersion: 10
 --- !u!114 &1951876939307453044
 MonoBehaviour:
@@ -382,7 +382,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637865695360000000
+  lastModified: 637871153453293202
   FileSizes:
   - Name: Desktop
     Value: 2164192
@@ -426,7 +426,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 637865695340000000
+  lastModified: 637871153453138886
   FileSizes:
   - Name: Desktop
     Value: 1716672
@@ -446,7 +446,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Interactable.bank
   Name: Interactable
   StudioPath: bank:/Interactable
-  lastModified: 637865695350000000
+  lastModified: 637871153453231136
   FileSizes:
   - Name: Desktop
     Value: 1239648
@@ -466,7 +466,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Collisions.bank
   Name: Collisions
   StudioPath: bank:/Collisions
-  lastModified: 637865695340000000
+  lastModified: 637871153453158655
   FileSizes:
   - Name: Desktop
     Value: 500416
