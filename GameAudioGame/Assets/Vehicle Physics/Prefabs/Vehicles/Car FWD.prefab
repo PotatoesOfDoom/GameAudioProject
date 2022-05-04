@@ -1393,6 +1393,13 @@ MonoBehaviour:
   sparks: {fileID: 0}
   cameraDistanceChange: 0
   cameraHeightChange: 0
+  fmodEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &11477096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8151,7 +8158,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 0.9419999
+  m_Pitch: 0.89199996
   Loop: 0
   Mute: 0
   Spatialize: 0

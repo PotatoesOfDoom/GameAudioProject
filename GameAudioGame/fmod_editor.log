@@ -2,12 +2,11 @@
 [LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
 [LOG] SystemI::init                            : Initialize version=20204 (121702), maxchannels=256, flags=0x00020000
 [LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
-[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 48000Hz sample rate.
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
-[LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x12282f408 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7fc535a28208 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -20,5 +19,77 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc4d777e5e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc4d777e5e8
+[LOG] SoundI::release                          :  (0x7fc4d6dc1468)
+[LOG] SoundI::release                          :     Car Horn Double (0x7fc4d6de5428)
+[LOG] SoundI::release                          :  (0x7fc4d77a8758)
+[LOG] SoundI::release                          :     funkymusic (0x7fc4d7727398)
+[LOG] SoundI::release                          :  (0x7fc4d77adb78)
+[LOG] SoundI::release                          :     Stagnant revving (0x7fc4d7758b88)
+[LOG] SoundI::release                          :  (0x7fc4d77e6f78)
+[LOG] SoundI::release                          :     Constant Acceleration (0x7fc4d7747d58)
+[LOG] SoundI::release                          :  (0x7fc4d77ebab8)
+[LOG] SoundI::release                          :     Deceleration 2 (0x7fc4d7720888)
+[LOG] SoundI::release                          :  (0x7fc4d77d1e78)
+[LOG] SoundI::release                          :     Acceleration Up 1 (0x7fc4d774f038)
+[LOG] SoundI::release                          :  (0x7fc4e740f708)
+[LOG] SoundI::release                          :     Deceleration 1 (0x7fc4d77600d8)
+[LOG] SoundI::release                          :  (0x7fc4d77c3ba8)
+[LOG] SoundI::release                          :     Acceleration Up 2 (0x7fc4d775c9c8)
+[LOG] SoundI::release                          :  (0x7fc4d77e9a98)
+[LOG] SoundI::release                          :     628263__audacitier__car-crash (0x7fc4d77b78e8)
+[LOG] SoundI::release                          : Class_Sound (0x7fc4d6d995e8)
+[LOG] SoundI::release                          :     Class_Sound (0x7fc4d77b0cc8)
+[LOG] SoundI::release                          :     Class_Sound (0x7fc4d777e5e8)
+[LOG] SoundI::release                          : Park Sounds (0x7fc4d6d1be58)
+[LOG] SoundI::release                          :     Park Sounds (0x7fc4d77cd398)
+[LOG] SoundI::release                          :     Park Sounds (0x7fc4d77806e8)
+[LOG] SoundI::release                          : Park Sounds (0x7fc536b61078)
+[LOG] SoundI::release                          :     Park Sounds (0x7fc4d7297e98)
+[LOG] SoundI::release                          :     Park Sounds (0x7fc4d7258a28)
+[LOG] SoundI::release                          : dancingloop (0x7fc4d7a8a718)
+[LOG] SoundI::release                          :     dancingloop (0x7fc4e6b0ac88)
+[LOG] SoundI::release                          :     dancingloop (0x7fc4e7382128)
+[LOG] SoundI::release                          : dancingloop (0x7fc4d7a575e8)
+[LOG] SoundI::release                          :     dancingloop (0x7fc4e366e148)
+[LOG] SoundI::release                          :     dancingloop (0x7fc4e6b5a248)
+[LOG] SoundI::release                          : dancingloop (0x7fc4d7a69208)
+[LOG] SoundI::release                          :     dancingloop (0x7fc4d70608f8)
+[LOG] SoundI::release                          :     dancingloop (0x7fc4e658e258)
+[LOG] SoundI::release                          :  (0x7fc4d77fe898)
+[LOG] SoundI::release                          :     151624__qubodup__clank-car-crash-collision (0x7fc4d77a33c8)
+[LOG] SoundI::release                          :  (0x7fc4d77a4ae8)
+[LOG] SoundI::release                          :     185244__deleted-user-3277771__big-crash (0x7fc4d7751a68)
+[LOG] SoundI::release                          :  (0x7fc4d77b2548)
+[LOG] SoundI::release                          :     332056__qubodup__fast-collision (0x7fc4d77b9458)
+[LOG] SoundI::release                          :  (0x7fc4d7742b18)
+[LOG] SoundI::release                          :     592388__magnuswaker__car-crash-with-glass (0x7fc4d7795878)
+[LOG] SoundI::release                          :  (0x7fc4d77ff498)
+[LOG] SoundI::release                          :     367624__fxkid2__crash (0x7fc4d772e538)
+[LOG] SoundI::release                          :  (0x7fc4d77b0558)
+[LOG] SoundI::release                          :     449062__softwalls__car-accident-real-interior (0x7fc4d7743af8)
+[LOG] SoundI::release                          :  (0x7fc4d7786938)
+[LOG] SoundI::release                          :     420356__eponn__crash (0x7fc4d7719128)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.

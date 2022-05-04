@@ -128,8 +128,16 @@ namespace RVP
 
         public float cameraDistanceChange;
         public float cameraHeightChange;
+        
+private FMOD.Studio.EventInstance instance;
 
-        void Start() {
+public FMODUnity.EventReference fmodEvent;
+
+        void Start() 
+        { 
+        instance = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
+        instance.start();
+        
             tr = transform;
             rb = GetComponent<Rigidbody>();
 
@@ -206,7 +214,8 @@ namespace RVP
 
             localVelocity = tr.InverseTransformDirection(rb.velocity - wheelContactsVelocity);
             localAngularVel = tr.InverseTransformDirection(rb.angularVelocity);
-            velMag = rb.velocity.magnitude;
+            velMag = rb.velocity.magnitude; 
+            instance.setParameterByName("RPM", velMag/30); 
             sqrVelMag = rb.velocity.sqrMagnitude;
             forwardDir = tr.forward;
             rightDir = tr.right;

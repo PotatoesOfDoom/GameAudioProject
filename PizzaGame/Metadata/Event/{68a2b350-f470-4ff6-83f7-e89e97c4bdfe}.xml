@@ -37,6 +37,9 @@
 			<destination>{e9d7282e-bd1b-4579-97d8-86c94a7635fe}</destination>
 			<destination>{22765672-a3c6-4dc8-971e-fb780749e1f3}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{4ffb89e4-e6b4-4797-a292-d7e90dc14dcd}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{cc138bb0-9a67-4528-80e0-2665c6ec5bf3}">
 		<relationship name="masterBus">
@@ -160,6 +163,9 @@
 		</property>
 		<property name="length">
 			<value>0.70000000000000018</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{ee4b6a69-be29-418b-b937-e46fc7d99695}</destination>
