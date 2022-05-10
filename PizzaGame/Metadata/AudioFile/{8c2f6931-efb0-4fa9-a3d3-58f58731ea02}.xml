@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8c2f6931-efb0-4fa9-a3d3-58f58731ea02}">
+		<property name="assetPath">
+			<value>Ninja Sounds.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.9375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{12b0b6a1-2cf2-4b87-b4e5-bdcc03c66461}</destination>
+		</relationship>
+	</object>
+</objects>

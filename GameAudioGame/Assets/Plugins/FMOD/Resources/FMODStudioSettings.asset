@@ -494,6 +494,7 @@ MonoBehaviour:
   - Collisions
   - Interactable
   - Music
+  - Speech
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
