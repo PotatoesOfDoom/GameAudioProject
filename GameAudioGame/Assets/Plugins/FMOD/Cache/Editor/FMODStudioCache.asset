@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Car Bank.bank
   Name: Car Bank
   StudioPath: bank:/Car Bank
-  lastModified: 637878120130000000
+  lastModified: 637878276350000000
   FileSizes:
   - Name: Desktop
     Value: 178976
@@ -87,7 +87,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637878120130000000
+  lastModified: 637878276360000000
   FileSizes:
   - Name: Desktop
     Value: 1390
@@ -233,10 +233,10 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878120130000000
+  lastModified: 637878276360000000
   FileSizes:
   - Name: Desktop
-    Value: 2180
+    Value: 2372
   Exists: 1
 --- !u!114 &-1399178700771058503
 MonoBehaviour:
@@ -265,6 +265,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-1186019218817696663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EnvironmentalSounds/Chinese Restaurant
+  m_EditorClassIdentifier: 
+  Path: event:/EnvironmentalSounds/Chinese Restaurant
+  Guid:
+    Data1: -193956656
+    Data2: 1155057183
+    Data3: -2107521401
+    Data4: -503101420
+  Banks:
+  - {fileID: 7934003365678169443}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33818
+--- !u!114 &-925410189468138270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EnvironmentalSounds/Boiling
+  m_EditorClassIdentifier: 
+  Path: event:/EnvironmentalSounds/Boiling
+  Guid:
+    Data1: 159662188
+    Data2: 1240008241
+    Data3: 1261527226
+    Data4: 288376030
+  Banks:
+  - {fileID: 7934003365678169443}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27800
 --- !u!114 &-463566837161177989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +383,10 @@ MonoBehaviour:
   - {fileID: -3741567426033359035}
   - {fileID: 4643184744443071021}
   - {fileID: 6606888662332950475}
+  - {fileID: -925410189468138270}
+  - {fileID: 7383670838580037945}
+  - {fileID: 1787221250283709521}
+  - {fileID: -1186019218817696663}
   EditorParameters:
   - {fileID: 1951876939307453044}
   - {fileID: -3187138078356596887}
@@ -336,7 +394,7 @@ MonoBehaviour:
   - {fileID: -7382351926339730373}
   StringsBanks:
   - {fileID: -1612277964555667729}
-  cacheTime: 637878120130000000
+  cacheTime: 637878276360000000
   cacheVersion: 10
 --- !u!114 &360754392289490257
 MonoBehaviour:
@@ -397,11 +455,38 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Speech.bank
   Name: Speech
   StudioPath: bank:/Speech
-  lastModified: 637878120130000000
+  lastModified: 637878276360000000
   FileSizes:
   - Name: Desktop
     Value: 2134
   Exists: 1
+--- !u!114 &1787221250283709521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EnvironmentalSounds/MusicStore
+  m_EditorClassIdentifier: 
+  Path: event:/EnvironmentalSounds/MusicStore
+  Guid:
+    Data1: 1534903017
+    Data2: 1112294528
+    Data3: 2011132590
+    Data4: 1694724970
+  Banks:
+  - {fileID: 7934003365678169443}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 37500
 --- !u!114 &1896330141411989661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,10 +848,10 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637878120130000000
+  lastModified: 637878276360000000
   FileSizes:
   - Name: Desktop
-    Value: 2957472
+    Value: 2957632
   Exists: 1
 --- !u!114 &6606888662332950475
 MonoBehaviour:
@@ -819,6 +904,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &7383670838580037945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EnvironmentalSounds/Bowling Alley
+  m_EditorClassIdentifier: 
+  Path: event:/EnvironmentalSounds/Bowling Alley
+  Guid:
+    Data1: -516617015
+    Data2: 1239839428
+    Data3: 5342873
+    Data4: -1245661794
+  Banks:
+  - {fileID: 7934003365678169443}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 393500
 --- !u!114 &7934003365678169443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -834,10 +946,10 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 637878120130000000
+  lastModified: 637878276350000000
   FileSizes:
   - Name: Desktop
-    Value: 1717312
+    Value: 8093792
   Exists: 1
 --- !u!114 &8303584067551613694
 MonoBehaviour:
@@ -854,7 +966,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Interactable.bank
   Name: Interactable
   StudioPath: bank:/Interactable
-  lastModified: 637878120130000000
+  lastModified: 637878276360000000
   FileSizes:
   - Name: Desktop
     Value: 1239648
@@ -874,7 +986,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Collisions.bank
   Name: Collisions
   StudioPath: bank:/Collisions
-  lastModified: 637878120130000000
+  lastModified: 637878276360000000
   FileSizes:
   - Name: Desktop
     Value: 500416
