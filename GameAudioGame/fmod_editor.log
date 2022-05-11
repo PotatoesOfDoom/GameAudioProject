@@ -6,7 +6,7 @@
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7fe85faac808 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7faec9ffcc08 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -22,31 +22,646 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed29b1808 : node = 0x7faec7f1c800
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed29b1808
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec7f1c910
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano 4', format=5, channels=1, frequency=48000, lengthbytes=84704, lengthpcm=1204363, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.967969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed29b1808
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed17b4738 : node = 0x7faed17afe50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed17b4738
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faed17aff60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar 4', format=5, channels=1, frequency=48000, lengthbytes=84096, lengthpcm=831969, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.982704.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed17b4738
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Collisions.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec90d9e88 : node = 0x7faec90d6800
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec90d9e88
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Collisions.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 492032
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8384
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec90d6910
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 41
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='136629__smmassuda__crashing', format=5, channels=1, frequency=48000, lengthbytes=136480, lengthpcm=770048, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.618701.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec90d9e88
+[LOG] SoundI::release                          : 136629__smmassuda__crashing (0x7faec90d9e88)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faec91b21d8)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faec91b2558)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec90e4628
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec90e4628
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec92f0e98 : node = 0x7faed17b3d10
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec92f0e98
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faed17b3e20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drums 1', format=5, channels=1, frequency=48000, lengthbytes=63136, lengthpcm=523636, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.876768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec92f0e98
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed17abb58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed17abb58
+[LOG] SoundI::release                          : Guitar 4 (0x7faed17b4738)
+[LOG] SoundI::release                          :     Guitar 4 (0x7faed2919ad8)
+[LOG] SoundI::release                          :     Guitar 4 (0x7faed2919c68)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec950a138 : node = 0x7faec950a2f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec950a138
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec950a400
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar 5', format=5, channels=1, frequency=48000, lengthbytes=261664, lengthpcm=1840269, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.957259.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec950a138
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec90d8de8 : node = 0x7faec909c1f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec90d8de8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec909c300
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Pasta 2', format=5, channels=2, frequency=48000, lengthbytes=306528, lengthpcm=1323968, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec90d8de8
+[LOG] SoundI::release                          : Drums 1 (0x7faec92f0e98)
+[LOG] SoundI::release                          :     Drums 1 (0x7faed09dfe68)
+[LOG] SoundI::release                          :     Drums 1 (0x7faed091a7b8)
+[LOG] SoundI::release                          : Pasta 2 (0x7faed17540b8)
+[LOG] SoundI::release                          :     Pasta 2 (0x7faec90657a8)
+[LOG] SoundI::release                          :     Pasta 2 (0x7faec90e4628)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec90d3aa8 : node = 0x7faec90d7de0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec90d3aa8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec90d7ef0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drums 1', format=5, channels=1, frequency=48000, lengthbytes=63136, lengthpcm=523636, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.876768.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec90d3aa8
+[LOG] SoundI::release                          : Guitar 2 (0x7faed298f708)
+[LOG] SoundI::release                          :     Guitar 2 (0x7faec917fbe8)
+[LOG] SoundI::release                          :     Guitar 2 (0x7faec917fd78)
+[LOG] SoundI::release                          : Piano 3 (0x7faed2990a58)
+[LOG] SoundI::release                          :     Piano 3 (0x7faed29924b8)
+[LOG] SoundI::release                          :     Piano 3 (0x7faed2992648)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec90d9cf8 : node = 0x7faed470c6d0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec90d9cf8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faed470c7e0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar 3', format=5, channels=1, frequency=48000, lengthbytes=104736, lengthpcm=1059273, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.970731.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec90d9cf8
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec91b1918 : node = 0x7faec917ff20
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec91b1918
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec9180030
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano 2', format=5, channels=1, frequency=48000, lengthbytes=71456, lengthpcm=942545, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec91b1918
+[LOG] SoundI::release                          : Piano 4 (0x7faed29b1808)
+[LOG] SoundI::release                          :     Piano 4 (0x7faed17c1c28)
+[LOG] SoundI::release                          :     Piano 4 (0x7faed17c2298)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed29b1438 : node = 0x7faec7f1c800
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed29b1438
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec7f1c910
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano 3', format=5, channels=1, frequency=48000, lengthbytes=99808, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed29b1438
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed17abb58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed17abb58
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[WRN] ObjectLookup::get                        : Lookup failed for EventModel: {b942245d-5930-4549-a8f6-f2558f9c856e}
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed17aa2a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed17aa2a8
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 492032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x7000043bc94c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x16ccf2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x16ccf2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x16ccf2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x16ccf2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7faec950aed8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='217542__medartimus__car-breaking-skid-01', format=5, channels=2, frequency=48000, lengthbytes=33376, lengthpcm=129845, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.785675.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 492032
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x7000043bc94c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x16ccf2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x16ccf2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x16ccf2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x16ccf2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7faec950aed8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='237375__squareal__car-crash', format=5, channels=2, frequency=48000, lengthbytes=44800, lengthpcm=209625, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.782025.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1218816
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 20832
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x7000043bc94c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x16ccf2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x16ccf2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x16ccf2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x16ccf2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7faed17b8ec8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ding2', format=5, channels=2, frequency=48000, lengthbytes=44192, lengthpcm=177939, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.766407.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1218816
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 20832
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x7000043bc94c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x16ccf2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x16ccf2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x16ccf2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x16ccf2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7faed17b8ec8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ding3', format=5, channels=2, frequency=48000, lengthbytes=60320, lengthpcm=284858, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.851465.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1218816
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 20832
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x7000043bc94c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x16ccf2cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x16ccf2d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x16ccf2da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x16ccf2e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7faed17b8ec8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ding', format=5, channels=2, frequency=48000, lengthbytes=16384, lengthpcm=144983, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.678131.
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Collisions.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed17b7bc8 : node = 0x7faed17b1aa0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed17b7bc8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Collisions.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 492032
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8384
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faed17b1bb0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 314
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='136629__smmassuda__crashing', format=5, channels=1, frequency=48000, lengthbytes=136480, lengthpcm=770048, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.618701.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed17b7bc8
+[LOG] SoundI::release                          : 136629__smmassuda__crashing (0x7faed17b7bc8)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faed29240b8)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faed29287d8)
+[LOG] SoundI::release                          : Drums 1 (0x7faec90d3aa8)
+[LOG] SoundI::release                          :     Drums 1 (0x7faec91acc68)
+[LOG] SoundI::release                          :     Drums 1 (0x7faec91b1218)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Collisions.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec91b21d8 : node = 0x7faec91b1230
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec91b21d8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Collisions.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 492032
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8384
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec91b1340
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 196
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='136629__smmassuda__crashing', format=5, channels=1, frequency=48000, lengthbytes=136480, lengthpcm=770048, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.618701.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec91b21d8
+[LOG] SoundI::release                          : 136629__smmassuda__crashing (0x7faec91b21d8)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faed2925f08)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faed2926098)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec950b9b8 : node = 0x7faec950bb70
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec950b9b8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec950bc80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drums 6', format=5, channels=1, frequency=48000, lengthbytes=127616, lengthpcm=837819, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.890694.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec950b9b8
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec91b1218 : node = 0x7faec9148de0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec91b1218
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec9148ef0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Asian Cuisine', format=5, channels=2, frequency=48000, lengthbytes=428640, lengthpcm=1623272, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.985225.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec91b1218
+[LOG] SoundI::release                          : Asian Cuisine (0x7faed1758c08)
+[LOG] SoundI::release                          :     Asian Cuisine (0x7faed17aa118)
+[LOG] SoundI::release                          :     Asian Cuisine (0x7faed17aa2a8)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Collisions.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed29585b8 : node = 0x7faed2964b40
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed29585b8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Collisions.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 492032
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8384
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faed2964c50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 83
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='136629__smmassuda__crashing', format=5, channels=1, frequency=48000, lengthbytes=136480, lengthpcm=770048, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.618701.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed29585b8
+[LOG] SoundI::release                          : 136629__smmassuda__crashing (0x7faed29585b8)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faec91b1598)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faec91ab008)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed17aac98
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed17aac98
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Collisions.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec917d028 : node = 0x7faec91b0430
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec917d028
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Collisions.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 492032
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8384
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec91b0540
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 197
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='136629__smmassuda__crashing', format=5, channels=1, frequency=48000, lengthbytes=136480, lengthpcm=770048, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.618701.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec917d028
+[LOG] SoundI::release                          : 136629__smmassuda__crashing (0x7faec917d028)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faed292d7e8)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faed292d978)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec90d9508 : node = 0x7faec90d7de0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec90d9508
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec90d7ef0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Pasta 2', format=5, channels=2, frequency=48000, lengthbytes=306528, lengthpcm=1323968, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec90d9508
+[LOG] SoundI::release                          : Pasta 2 (0x7faec90d8de8)
+[LOG] SoundI::release                          :     Pasta 2 (0x7faec91aae78)
+[LOG] SoundI::release                          :     Pasta 2 (0x7faec91ded78)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed4707478
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed4707478
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed17bee28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed17bee28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed091a7b8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed091a7b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec90da088
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec90da088
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed292ba48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed292ba48
+[LOG] SoundI::release                          : Piano 2 (0x7faec91b1918)
+[LOG] SoundI::release                          :     Piano 2 (0x7faed295f1d8)
+[LOG] SoundI::release                          :     Piano 2 (0x7faed091a7b8)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed295f1d8 : node = 0x7faed292bf90
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed295f1d8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faed292c0a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano 2', format=5, channels=1, frequency=48000, lengthbytes=71456, lengthpcm=942545, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed295f1d8
+[LOG] SoundI::release                          : Guitar 3 (0x7faec90d9cf8)
+[LOG] SoundI::release                          :     Guitar 3 (0x7faed17bec98)
+[LOG] SoundI::release                          :     Guitar 3 (0x7faed17bee28)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed298f328 : node = 0x7faed295f860
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed298f328
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faed295f970
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar 4', format=5, channels=1, frequency=48000, lengthbytes=84096, lengthpcm=831969, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.982704.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed298f328
+[LOG] SoundI::release                          : Piano 3 (0x7faed29b1438)
+[LOG] SoundI::release                          :     Piano 3 (0x7faec90d8f88)
+[LOG] SoundI::release                          :     Piano 3 (0x7faec90da088)
+[LOG] SoundI::release                          : Drums 6 (0x7faec950b9b8)
+[LOG] SoundI::release                          :     Drums 6 (0x7faed292b8b8)
+[LOG] SoundI::release                          :     Drums 6 (0x7faed292ba48)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed470c6b8 : node = 0x7faec909d2d0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed470c6b8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec909d3e0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drums 4', format=5, channels=1, frequency=48000, lengthbytes=93920, lengthpcm=733091, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.858117.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed470c6b8
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Collisions.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed17a5ec8 : node = 0x7faed1754270
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed17a5ec8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Collisions.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 492032
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8384
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faed1754380
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 309
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='136629__smmassuda__crashing', format=5, channels=1, frequency=48000, lengthbytes=136480, lengthpcm=770048, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.618701.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed17a5ec8
+[LOG] SoundI::release                          : 136629__smmassuda__crashing (0x7faed17a5ec8)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faed291a548)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7faed2964688)
+[LOG] SoundI::release                          : Guitar 5 (0x7faec950a138)
+[LOG] SoundI::release                          :     Guitar 5 (0x7faed4706cf8)
+[LOG] SoundI::release                          :     Guitar 5 (0x7faed4707478)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faed470bb78 : node = 0x7faec90d3b40
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faed470bb78
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec90d3c50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar 3', format=5, channels=1, frequency=48000, lengthbytes=104736, lengthpcm=1059273, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.970731.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faed470bb78
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faec91b1598 : node = 0x7faec91b1ed0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faec927bde8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faec91b1598
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 16768
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faec91b1fe0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Pasta 2', format=5, channels=2, frequency=48000, lengthbytes=306528, lengthpcm=1323968, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faec91b1598
+[LOG] SoundI::release                          : Pasta 2 (0x7faec90d9508)
+[LOG] SoundI::release                          :     Pasta 2 (0x7faed292e368)
+[LOG] SoundI::release                          :     Pasta 2 (0x7faed292e4f8)
+[LOG] SoundI::release                          :  (0x7faed2926858)
+[LOG] SoundI::release                          :     ding (0x7faed2927468)
+[LOG] SoundI::release                          :  (0x7faed17b81a8)
+[LOG] SoundI::release                          :     ding2 (0x7faed17b8318)
+[LOG] SoundI::release                          : Class_Sound (0x7faed175ca28)
+[LOG] SoundI::release                          :     Class_Sound (0x7faed17ab9c8)
+[LOG] SoundI::release                          :     Class_Sound (0x7faed17abb58)
+[LOG] SoundI::release                          : 07035047 (0x7faed175a948)
+[LOG] SoundI::release                          :     07035047 (0x7faed17aab08)
+[LOG] SoundI::release                          :     07035047 (0x7faed17aac98)
+[LOG] SoundI::release                          : Asian Cuisine (0x7faec91b1218)
+[LOG] SoundI::release                          :     Asian Cuisine (0x7faed2927d68)
+[LOG] SoundI::release                          :     Asian Cuisine (0x7faed2927ef8)
+[LOG] SoundI::release                          : Drums 4 (0x7faed470c6b8)
+[LOG] SoundI::release                          :     Drums 4 (0x7faed17c0be8)
+[LOG] SoundI::release                          :     Drums 4 (0x7faed1775ec8)
+[LOG] SoundI::release                          : Piano 2 (0x7faed295f1d8)
+[LOG] SoundI::release                          :     Piano 2 (0x7faec926e088)
+[LOG] SoundI::release                          :     Piano 2 (0x7faed17540b8)
+[LOG] SoundI::release                          : Guitar 3 (0x7faed470bb78)
+[LOG] SoundI::release                          :     Guitar 3 (0x7faed2963e38)
+[LOG] SoundI::release                          :     Guitar 3 (0x7faed2964688)
+[LOG] SoundI::release                          : Guitar 4 (0x7faed298f328)
+[LOG] SoundI::release                          :     Guitar 4 (0x7faec91af068)
+[LOG] SoundI::release                          :     Guitar 4 (0x7faec91b1918)
+[LOG] SoundI::release                          : Pasta 2 (0x7faec91b1598)
+[LOG] SoundI::release                          :     Pasta 2 (0x7faed2928828)
+[LOG] SoundI::release                          :     Pasta 2 (0x7faed29289b8)
+[LOG] SoundI::release                          : Park Sounds (0x7faed1757448)
+[LOG] SoundI::release                          :     Park Sounds (0x7faed1793ba8)
+[LOG] SoundI::release                          :     Park Sounds (0x7faed17a98b8)
+[LOG] SoundI::release                          : Park Sounds (0x7faec9283388)
+[LOG] SoundI::release                          :     Park Sounds (0x7faec90ed018)
+[LOG] SoundI::release                          :     Park Sounds (0x7faec90ed1a8)
+[LOG] SoundI::release                          :  (0x7faed472abc8)
+[LOG] SoundI::release                          :     ding3 (0x7faed472ad38)
+[LOG] SoundI::release                          :  (0x7faed17bcee8)
+[LOG] SoundI::release                          :     217542__medartimus__car-breaking-skid-01 (0x7faed17b57d8)
+[LOG] SoundI::release                          :  (0x7faed17b8928)
+[LOG] SoundI::release                          :     237375__squareal__car-crash (0x7faed17b8a98)
+[LOG] SoundI::release                          :  (0x7faed09121f8)
+[LOG] SoundI::release                          :     Piano 1 (0x7faed091c0a8)
+[LOG] SoundI::release                          :  (0x7faec7f1d7e8)
+[LOG] SoundI::release                          :     Drums 5 (0x7faed091c418)
+[LOG] SoundI::release                          :  (0x7faed17ab208)
+[LOG] SoundI::release                          :     Stagnant revving (0x7faed17ab378)
+[LOG] SoundI::release                          :  (0x7faed166e4c8)
+[LOG] SoundI::release                          :     Constant Acceleration (0x7faed1671da8)
+[LOG] SoundI::release                          :  (0x7faed298d9a8)
+[LOG] SoundI::release                          :     Deceleration 2 (0x7faed298db18)
+[LOG] SoundI::release                          :  (0x7faed094a298)
+[LOG] SoundI::release                          :     Acceleration Up 1 (0x7faed16f19a8)
+[LOG] SoundI::release                          :  (0x7faec7fa2158)
+[LOG] SoundI::release                          :     Deceleration 1 (0x7faed0910058)
+[LOG] SoundI::release                          :  (0x7faed298df78)
+[LOG] SoundI::release                          :     Acceleration Up 2 (0x7faed298e0e8)
+[LOG] SoundI::release                          :  (0x7faed17ac8e8)
+[LOG] SoundI::release                          :     628263__audacitier__car-crash (0x7faed17aca58)
+[LOG] SoundI::release                          :  (0x7faed17ac458)
+[LOG] SoundI::release                          :     151624__qubodup__clank-car-crash-collision (0x7faed17ac5c8)
+[LOG] SoundI::release                          :  (0x7faed471d248)
+[LOG] SoundI::release                          :     185244__deleted-user-3277771__big-crash (0x7faed471d3b8)
+[LOG] SoundI::release                          :  (0x7faec918f048)
+[LOG] SoundI::release                          :     332056__qubodup__fast-collision (0x7faec9126c88)
+[LOG] SoundI::release                          :  (0x7faed298e848)
+[LOG] SoundI::release                          :     592388__magnuswaker__car-crash-with-glass (0x7faed298e9b8)
+[LOG] SoundI::release                          :  (0x7faed17abfc8)
+[LOG] SoundI::release                          :     367624__fxkid2__crash (0x7faed17ac138)
+[LOG] SoundI::release                          :  (0x7faec91251f8)
+[LOG] SoundI::release                          :     449062__softwalls__car-accident-real-interior (0x7faec917eb88)
+[LOG] SoundI::release                          :  (0x7faed298e3b8)
+[LOG] SoundI::release                          :     420356__eponn__crash (0x7faed298e528)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.

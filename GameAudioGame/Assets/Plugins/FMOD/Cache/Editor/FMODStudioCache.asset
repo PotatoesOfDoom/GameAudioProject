@@ -1,33 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8967126840714364390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/SpeakerMusic
-  m_EditorClassIdentifier: 
-  Path: event:/Music/SpeakerMusic
-  Guid:
-    Data1: -1186847651
-    Data2: 1162434864
-    Data3: 1441986216
-    Data4: 1854250127
-  Banks:
-  - {fileID: 6384879288570658167}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 4500727906552954827}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10000
 --- !u!114 &-8582571646000272855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,7 +15,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Car Bank.bank
   Name: Car Bank
   StudioPath: bank:/Car Bank
-  lastModified: 637878276350000000
+  lastModified: 637878718420000000
   FileSizes:
   - Name: Desktop
     Value: 178976
@@ -87,7 +59,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637878276360000000
+  lastModified: 637878718420000000
   FileSizes:
   - Name: Desktop
     Value: 1390
@@ -143,33 +115,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 910
---- !u!114 &-3741567426033359035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Intro_Music
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Intro_Music
-  Guid:
-    Data1: 1149768017
-    Data2: 1113016140
-    Data3: -1470118990
-    Data4: 933663539
-  Banks:
-  - {fileID: 6384879288570658167}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 12500
 --- !u!114 &-3187138078356596887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +178,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878276360000000
+  lastModified: 637878718420000000
   FileSizes:
   - Name: Desktop
     Value: 2372
@@ -372,15 +317,12 @@ MonoBehaviour:
   - {fileID: 3261795787710383163}
   - {fileID: -4307749891091782206}
   - {fileID: -463566837161177989}
-  - {fileID: -8967126840714364390}
   - {fileID: -1399178700771058503}
   - {fileID: 6085293513517122414}
   - {fileID: 2524388187528042158}
   - {fileID: 3352567306270078999}
   - {fileID: 5426107250404232538}
   - {fileID: 4073534402484784662}
-  - {fileID: 1896330141411989661}
-  - {fileID: -3741567426033359035}
   - {fileID: 4643184744443071021}
   - {fileID: 6606888662332950475}
   - {fileID: -925410189468138270}
@@ -394,32 +336,8 @@ MonoBehaviour:
   - {fileID: -7382351926339730373}
   StringsBanks:
   - {fileID: -1612277964555667729}
-  cacheTime: 637878276360000000
+  cacheTime: 0
   cacheVersion: 10
---- !u!114 &360754392289490257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/InteractiveMusic/Accel States
-  m_EditorClassIdentifier: 
-  Name: Accel States
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 554018800
-    data2: 422292087
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &1300676776955714555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,7 +373,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Speech.bank
   Name: Speech
   StudioPath: bank:/Speech
-  lastModified: 637878276360000000
+  lastModified: 637878718450000000
   FileSizes:
   - Name: Desktop
     Value: 2134
@@ -486,37 +404,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 37500
---- !u!114 &1896330141411989661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/InteractiveMusic
-  m_EditorClassIdentifier: 
-  Path: event:/Music/InteractiveMusic
-  Guid:
-    Data1: -1784058173
-    Data2: 1075524695
-    Data3: 1747634110
-    Data4: -23795681
-  Banks:
-  - {fileID: 6384879288570658167}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 5887851311792798183}
-  - {fileID: 6008042526078714677}
-  - {fileID: 360754392289490257}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 9600
+  Length: 50000
 --- !u!114 &1951876939307453044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,30 +566,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
---- !u!114 &4500727906552954827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/SpeakerMusic/SpeakerMusicType
-  m_EditorClassIdentifier: 
-  Name: SpeakerMusicType
-  StudioPath: 
-  Min: 0
-  Max: 4
-  Default: 0
-  ID:
-    data1: 3538355155
-    data2: 1770654544
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &4643184744443071021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -758,54 +622,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &5887851311792798183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/InteractiveMusic/Countdown
-  m_EditorClassIdentifier: 
-  Name: Countdown
-  StudioPath: 
-  Min: 0
-  Max: 10
-  Default: 0
-  ID:
-    data1: 840838595
-    data2: 667930379
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &6008042526078714677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/InteractiveMusic/Pause
-  m_EditorClassIdentifier: 
-  Name: Pause
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1158318004
-    data2: 723884453
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &6085293513517122414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -848,10 +664,10 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637878276360000000
+  lastModified: 637878718430000000
   FileSizes:
   - Name: Desktop
-    Value: 2957632
+    Value: 17856
   Exists: 1
 --- !u!114 &6606888662332950475
 MonoBehaviour:
@@ -946,10 +762,10 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 637878276350000000
+  lastModified: 637878718420000000
   FileSizes:
   - Name: Desktop
-    Value: 8093792
+    Value: 8213216
   Exists: 1
 --- !u!114 &8303584067551613694
 MonoBehaviour:
@@ -966,7 +782,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Interactable.bank
   Name: Interactable
   StudioPath: bank:/Interactable
-  lastModified: 637878276360000000
+  lastModified: 637878718420000000
   FileSizes:
   - Name: Desktop
     Value: 1239648
@@ -986,7 +802,7 @@ MonoBehaviour:
   Path: ../PizzaGame/Build/Desktop/Collisions.bank
   Name: Collisions
   StudioPath: bank:/Collisions
-  lastModified: 637878276360000000
+  lastModified: 637878718420000000
   FileSizes:
   - Name: Desktop
     Value: 500416
