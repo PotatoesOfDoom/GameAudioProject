@@ -95,6 +95,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f693798a-bb78-4729-a20c-2bf6a99115cb}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{9ceea6db-11c2-432d-ba82-b5a7a220a7e0}</destination>
 		</relationship>
@@ -238,11 +241,16 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{9ceea6db-11c2-432d-ba82-b5a7a220a7e0}">
 		<relationship name="effects">
+			<destination>{13f7f244-150e-459f-af0e-3ed92bf69edc}</destination>
 			<destination>{4d86a6c5-4895-4dec-90a0-ac2c8dc6eb0c}</destination>
 			<destination>{65ca0949-e75a-41f2-9685-d9359294934c}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{81e1bdd4-3a11-429b-9afe-0e3b36970142}" />
+	<object class="MixerBusPanner" id="{81e1bdd4-3a11-429b-9afe-0e3b36970142}">
+		<property name="surroundLFELevel">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{463943b2-069c-4ca3-bcc8-cdb427040d78}" />
 	<object class="MultiSound" id="{618de8cc-d465-46bc-8ff0-310559e12389}">
 		<property name="playlistMode">
@@ -299,6 +307,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ef4d5397-d682-4bb7-b444-97b4266405ea}" />
+	<object class="GainEffect" id="{13f7f244-150e-459f-af0e-3ed92bf69edc}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{4d86a6c5-4895-4dec-90a0-ac2c8dc6eb0c}" />
 	<object class="SpatialiserEffect" id="{65ca0949-e75a-41f2-9685-d9359294934c}" />
 	<object class="SingleSound" id="{b0d610ec-df38-47dd-b0fc-d76f5836616a}">
