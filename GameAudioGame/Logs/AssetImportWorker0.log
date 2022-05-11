@@ -489,3 +489,35 @@ System memory in use after: 86.4 MB.
 Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 1386.
 Total: 1.818000 ms (FindLiveObjects: 0.267600 ms CreateObjectMapping: 0.094000 ms MarkObjects: 1.397800 ms  DeleteObjects: 0.057200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 793.421387 seconds.
+  path: Assets/Scripts/PersonColision.cs
+  artifactKey: Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PersonColision.cs using Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23939a75d71aa5039314f3faa221dea7') in 0.126448 seconds
+  Import took 0.130754 seconds .
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 3.039318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 928 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.3 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 1388.
+Total: 1.812800 ms (FindLiveObjects: 0.117200 ms CreateObjectMapping: 0.024600 ms MarkObjects: 1.620900 ms  DeleteObjects: 0.048600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
