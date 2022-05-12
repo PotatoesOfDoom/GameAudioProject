@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{04877be2-0a86-46e5-a0ff-33b59178e665}">
+		<property name="name">
+			<value>CarGoVroom</value>
+		</property>
+		<relationship name="folder">
+			<destination>{daa2cde6-7ad9-4331-af6a-7067d9a406b3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{40369f1a-5c68-4d84-b411-d57a80f39c4f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{40369f1a-5c68-4d84-b411-d57a80f39c4f}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

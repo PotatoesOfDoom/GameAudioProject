@@ -5,6 +5,7 @@ using UnityEngine;
 public class PersonColision : MonoBehaviour
 {
     private FMOD.Studio.EventInstance carCollision;
+        private FMOD.Studio.EventInstance instance;
     
     private void OnCollisionEnter(Collision collision)
     {
@@ -19,7 +20,7 @@ public class PersonColision : MonoBehaviour
 
         if (collision.gameObject.tag == "Car")
         {
-            carCollision = FMODUnity.RuntimeManager.CreateInstance("event:/Interactable/Collisions/CarHit");
+            carCollision = FMODUnity.RuntimeManager.CreateInstance("event:/Car Sounds/Crash Sounds");
             carCollision.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
             carCollision.start();
             carCollision.release();
@@ -27,5 +28,15 @@ public class PersonColision : MonoBehaviour
             car.GetComponent<Rigidbody>().AddExplosionForce(500, car.transform.position, 10.0f, 10.0F);
             
         }
+        
+        if (collision.gameObject.tag == "Speaker")
+        {
+            instance = FMODUnity.RuntimeManager.CreateInstance("event:/Music/SpeakerMusic");
+            instance.start();
+            instance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+            instance.setParameterByName("SpeakerMusicType", Random.Range(0, 5));
+        }
+        
+        
     }
 }
