@@ -200,6 +200,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{20ae33ea-f812-4101-ac98-9cb3cfd807fe}">
+		<property name="volume">
+			<value>-14.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{eeb1a934-dbba-4417-be7d-21517050d98f}</destination>
 		</relationship>
@@ -513,6 +516,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b9d885b9-30b9-4654-98d9-7b57fb00d9b2}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -557,7 +563,6 @@
 	<object class="MixerBusEffectChain" id="{eeb1a934-dbba-4417-be7d-21517050d98f}">
 		<relationship name="effects">
 			<destination>{b33ae84e-c969-4f8c-b824-dc013b3a8a95}</destination>
-			<destination>{22385c36-4716-4ce5-9c29-d407ba66c298}</destination>
 			<destination>{42ed3084-3cb8-45c5-9ea6-0db62266ce47}</destination>
 		</relationship>
 	</object>
@@ -706,7 +711,6 @@
 			<value>8.5</value>
 		</property>
 	</object>
-	<object class="Sidechain" id="{22385c36-4716-4ce5-9c29-d407ba66c298}" />
 	<object class="MixerBusFader" id="{42ed3084-3cb8-45c5-9ea6-0db62266ce47}" />
 	<object class="AutomationCurve" id="{97f3417a-791c-4f9b-a14d-0724a1db7c6d}">
 		<relationship name="parameter">

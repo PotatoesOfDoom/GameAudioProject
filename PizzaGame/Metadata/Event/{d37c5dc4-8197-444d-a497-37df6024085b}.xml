@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d37c5dc4-8197-444d-a497-37df6024085b}">
 		<property name="name">
-			<value>New Event</value>
+			<value>Police Station</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -31,6 +31,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{b267094a-8ec4-4c4b-b2f7-837c11f05314}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{bfdfc836-b413-4b72-82c9-f374f64478ce}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{87d5d058-e9fe-409c-83dc-0bb82ef17f20}">
@@ -144,6 +147,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5ade98d9-5078-4625-bf73-662cd3f7cf0c}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
