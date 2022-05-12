@@ -138,6 +138,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c5f94b0a-c6ac-486d-9b6f-335731eec6fa}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<property name="name">
 			<value>Drums</value>
 		</property>
@@ -175,6 +178,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5c6a9ea8-5b58-46a1-b849-b7af7721ff18}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<property name="name">
 			<value>Guitar</value>
 		</property>
@@ -212,6 +218,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{dcb2da05-a087-4d52-830c-4249235c85fb}">
+		<property name="volume">
+			<value>-13.5</value>
+		</property>
 		<property name="name">
 			<value>Piano</value>
 		</property>
@@ -275,7 +284,11 @@
 			<destination>{caecf6b8-4429-43ec-b7aa-fa4f1426262d}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{eb58f8db-6817-4417-9a5e-c3aea56b15f5}" />
+	<object class="MixerBusPanner" id="{eb58f8db-6817-4417-9a5e-c3aea56b15f5}">
+		<property name="disabledSpeakers">
+			<value>52</value>
+		</property>
+	</object>
 	<object class="MultiSound" id="{fa42bbd4-8022-42e4-a22e-4f0c26ac54ac}">
 		<property name="playlistMode">
 			<value>1</value>
@@ -294,7 +307,11 @@
 			<destination>{097a552e-7e5a-44ca-8814-be4e5fddf722}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5e2b75d1-243d-48b6-83ab-4c2a793a9316}" />
+	<object class="MixerBusPanner" id="{5e2b75d1-243d-48b6-83ab-4c2a793a9316}">
+		<property name="disabledSpeakers">
+			<value>52</value>
+		</property>
+	</object>
 	<object class="MultiSound" id="{e5d6a2ab-4a56-4eb4-a8d0-d3a3128904bc}">
 		<property name="playlistMode">
 			<value>1</value>
@@ -311,7 +328,11 @@
 			<destination>{857fa83f-0cc4-4d45-8971-c9f08066fc67}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{ef4d5397-d682-4bb7-b444-97b4266405ea}" />
+	<object class="MixerBusPanner" id="{ef4d5397-d682-4bb7-b444-97b4266405ea}">
+		<property name="disabledSpeakers">
+			<value>52</value>
+		</property>
+	</object>
 	<object class="GainEffect" id="{13f7f244-150e-459f-af0e-3ed92bf69edc}">
 		<property name="gain">
 			<value>10</value>
