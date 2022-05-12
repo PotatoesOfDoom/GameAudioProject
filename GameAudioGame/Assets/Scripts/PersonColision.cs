@@ -13,7 +13,7 @@ public class PersonColision : MonoBehaviour
             var person = collision.gameObject;
             Animator anim = person.GetComponent<Animator>();
             anim.SetInteger("deathTransition", Random.Range(0, 5));
-            //person.GetComponent<Rigidbody>().AddExplosionForce(5, person.transform.position, 1.0f, 3.0F);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Interactable/Collisions/HitPerson");            
             person.GetComponent<Collider>().enabled = false;
         }
 
