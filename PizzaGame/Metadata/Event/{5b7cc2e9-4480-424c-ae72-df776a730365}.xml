@@ -252,6 +252,7 @@
 		<relationship name="effects">
 			<destination>{13f7f244-150e-459f-af0e-3ed92bf69edc}</destination>
 			<destination>{d36d67fe-f032-4f44-a968-87bf9b21a402}</destination>
+			<destination>{500d6e80-fa76-40da-835d-6d4f82e74e23}</destination>
 			<destination>{19bc3eef-3d18-44c7-bddc-c0147145d05c}</destination>
 			<destination>{4d86a6c5-4895-4dec-90a0-ac2c8dc6eb0c}</destination>
 			<destination>{65ca0949-e75a-41f2-9685-d9359294934c}</destination>
@@ -339,6 +340,11 @@
 		</property>
 	</object>
 	<object class="GainEffect" id="{d36d67fe-f032-4f44-a968-87bf9b21a402}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{500d6e80-fa76-40da-835d-6d4f82e74e23}">
 		<property name="gain">
 			<value>10</value>
 		</property>

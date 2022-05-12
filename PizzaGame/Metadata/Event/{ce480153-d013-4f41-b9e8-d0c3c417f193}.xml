@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ce480153-d013-4f41-b9e8-d0c3c417f193}">
 		<property name="name">
-			<value>New Event</value>
+			<value>Hospital</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -144,11 +144,44 @@
 	<object class="MixerBusFader" id="{a5d95f53-fc65-4090-80cc-c723b4c162bb}" />
 	<object class="MixerBusEffectChain" id="{31441948-d560-4580-a308-6cf100bdd4ab}">
 		<relationship name="effects">
+			<destination>{e1c94d41-2ce6-43c0-b7e7-1032c800d032}</destination>
 			<destination>{ba9c2fe8-7fa4-4a0e-b5e8-e80cf78f4e9f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{85c783f5-7cda-4eb4-8453-3e90924d432d}" />
 	<object class="MixerBusFader" id="{1b4656e6-1fe8-4f93-93bd-2e957fae27e3}" />
 	<object class="SpatialiserEffect" id="{2f14c81b-26b9-410c-86ea-db97ae610e48}" />
+	<object class="MultibandEqEffect" id="{e1c94d41-2ce6-43c0-b7e7-1032c800d032}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>3</value>
+		</property>
+		<property name="frequencyA">
+			<value>20</value>
+		</property>
+		<property name="frequencyB">
+			<value>560</value>
+		</property>
+		<property name="frequencyE">
+			<value>3859.8772</value>
+		</property>
+		<property name="qualityA">
+			<value>0.479999989</value>
+		</property>
+		<property name="qualityB">
+			<value>2.70000005</value>
+		</property>
+		<property name="qualityE">
+			<value>0.100000001</value>
+		</property>
+		<property name="gainB">
+			<value>-7.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ba9c2fe8-7fa4-4a0e-b5e8-e80cf78f4e9f}" />
 </objects>
