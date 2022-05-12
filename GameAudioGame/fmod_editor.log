@@ -1,33 +1,1368 @@
-[LOG] System::create                           : Header version = 2.02.04. Current version = 2.02.04.
-[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
-[LOG] SystemI::init                            : Initialize version=20204 (121702), maxchannels=256, flags=0x00020000
-[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
-[LOG] OutputCoreAudio::init                    : Output running 2 channels at 48000Hz sample rate.
-[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
-[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7fde11fb1208 isAsync 0 updatePeriod 0.02
-[LOG] AsyncManager::init                       : done
-[LOG] PlaybackSystem::init                     : 
-[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
-[LOG] PlaybackSystem::init                     : done
+[LOG] System::create                           :     Header version = 2.02.04. Current version = 2.02.04.
+[LOG] Manager::init                            :     maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
+[LOG] SystemI::init                            :     Initialize version=20204 (121702), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               :     Setting output to 'FMOD Core Audio Output'
+[LOG] OutputCoreAudio::init                    :     Output running 2 channels at 48000Hz sample rate.
+[LOG] OutputCoreAudio::init                    :     Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[LOG] Thread::initThread                       :     Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       :     Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       :     manager 0x7fc34ca8d008 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       :     done
+[LOG] PlaybackSystem::init                     :     
+[LOG] Thread::initThread                       :     Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     :     done
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eeafa38
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
-[LOG] Manager::init                            : done.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34eeb0428
+[LOG] Manager::init                            :     done.
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eeb0428
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407c5458
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407c5458
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346b21ab8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346b21ab8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346b226d8
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346b226d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346b22f88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346b22f88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e98b138
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] SystemI::createSound                     :     filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7fc340787838 : node = 0x7fc3407879f0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7fc3469aaa68.  list count = 175
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e98b138
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e98bb28
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e98bb28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e98c518
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] PlaybackSystem::acquireMasterBus         :     Setting master channel group format to 6
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        :     fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e98c518
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e98cf08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e98cf08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e98d8f8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e98d8f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346811718
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346811718
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340790e98
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340790e98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340791888
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340791888
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340792278
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340792278
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340792c68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340792c68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340793658
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340793658
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340794048
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340794048
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340794a38
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340794a38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340795428
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340795428
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3469a43d8
+[LOG] SystemI::createSound                     :     filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7fc34e91d3e8 : node = 0x7fc34e2c6360
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7fc3469aaa68.  list count = 162
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3469a43d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3469a4a48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3469a4a48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34076a568
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34076a568
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340777f58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340777f58
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34071fe78
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34071fe78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340778878
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340778878
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34071f158
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34071f158
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340796148
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340796148
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc345f71418
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc345f71418
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34076b7d8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34076b7d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc345f47798
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469f6148)
+[LOG] SoundI::release                          :         videoplayback-2.2Traffic Sound (0x7fc3469d58a8)
+[LOG] SoundI::release                          :         videoplayback-2.2Traffic Sound (0x7fc3469d5a38)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc345f47798
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc345f6ba38
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc345f6ba38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3469a1148
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3469a1148
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346e0dd18
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346e0dd18
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e2c6848
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e2c6848
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc345f92f68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc345f92f68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c5bb68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c5bb68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3469a35a8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 11751616
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 33216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc3469a0ff0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar 4', format=5, channels=1, frequency=48000, lengthbytes=84096, lengthpcm=831969, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.982704.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3469a35a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407bf138
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 11751616
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 33216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc3407784e0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano 2', format=5, channels=1, frequency=48000, lengthbytes=71456, lengthpcm=942545, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407bf138
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3469efe98
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 11751616
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 33216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc340731bf0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drums 6', format=5, channels=1, frequency=48000, lengthbytes=127616, lengthpcm=837819, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.890694.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3469efe98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340773d68
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2824448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc340774030
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Arp', format=5, channels=2, frequency=48000, lengthbytes=141632, lengthpcm=460800, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.865798.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340773d68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407750b8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2824448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc340775380
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dancingloop', format=5, channels=2, frequency=48000, lengthbytes=336640, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.767151.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407750b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340776348
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2824448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc340776610
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dancingloop', format=5, channels=2, frequency=48000, lengthbytes=336640, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.767151.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340776348
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407775d8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2824448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc3407778a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dancingloop', format=5, channels=2, frequency=48000, lengthbytes=336640, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.767151.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407775d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346a8f588
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2824448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc346a8f2f0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dancingloop', format=5, channels=2, frequency=48000, lengthbytes=336640, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.767151.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346a8f588
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346a8c878
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2824448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc346a45b00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dancingloop', format=5, channels=2, frequency=48000, lengthbytes=336640, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.767151.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346a8c878
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346a8d198
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2824448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc346a8fa20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='dancingloop', format=5, channels=2, frequency=48000, lengthbytes=336640, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.767151.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346a8d198
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c92b88
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469f4ff8)
+[LOG] SoundI::release                          :         videoplayback-2.2Traffic Sound (0x7fc3469d4eb8)
+[LOG] SoundI::release                          :         videoplayback-2.2Traffic Sound (0x7fc3469d5048)
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady :     Loading delay exceeded, sound may play at incorrect time
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c92b88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346cac908
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346cac908
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c0c308
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c0c308
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c2b908
+[WRN] DSPJobList::addJob                       :     DSP JobList expanding job from 1024 entries to 2048 entries.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c2b908
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34eeaad88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eeaad88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346ca90d8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346ca90d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346a907f8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346a907f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eee44b8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eee44b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eee4ca8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eee4ca8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eee5698
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eee5698
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eee6088
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eee6088
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eee6a78
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eee6a78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eec64a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eec64a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eec6d58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eec6d58
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eec7748
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eec7748
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eec8138
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eec8138
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eec9518
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eec9518
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eeca8f8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eeca8f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eecbcd8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eecbcd8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc33eecc6c8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc33eecc6c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e950768
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e950768
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e950dc8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e950dc8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e94fa78
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e94fa78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e9320b8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e9320b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e932968
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e932968
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e933358
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e933358
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e933d48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e933d48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e934738
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e934738
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e935128
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e935128
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e935b18
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e935b18
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e936cf8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e936cf8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e9376e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e9376e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e9380d8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e9380d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e938ac8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e938ac8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e9394b8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e9394b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e939ea8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e939ea8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93a898
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93a898
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93b288
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93b288
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93bc78
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93bc78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93c668
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93c668
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93d058
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93d058
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93da48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93da48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93e438
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93e438
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93ee28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93ee28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e93f818
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e93f818
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e940208
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e940208
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e940bf8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e940bf8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e9415e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e9415e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346ced5a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346ced5a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346ccb628
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346ccb628
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346cab048
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346cab048
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346ca9d88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346ca9d88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c90478
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9cd3c8)
+[LOG] SoundI::release                          :         videoplayback-2.2Traffic Sound (0x7fc340795fb8)
+[LOG] SoundI::release                          :         videoplayback-2.2Traffic Sound (0x7fc340796148)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c90478
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c90e68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c90e68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c91858
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c91858
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346ceb388
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346ceb388
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346cf16d8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346cf16d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee06f58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee06f58
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee08138
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee08138
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340798388
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340798388
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee08de8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee08de8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34eed5298
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eed5298
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c8d408
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c8d408
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34eea3238
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eea3238
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34eea3c28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eea3c28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee04798
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee04798
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee05188
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee05188
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee07948
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee07948
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34076aa88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34076aa88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407965b8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407965b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340798d78
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340798d78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079a158
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079a158
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079ab48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079ab48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee0a1c8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee0a1c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee0abb8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee0abb8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079c5b8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079c5b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee06568
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee06568
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340796fa8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340796fa8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340797998
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340797998
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee097d8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee097d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079cfa8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079cfa8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079ebe8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079ebe8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a0878
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3531d9438)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eea30a8)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eea3238)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346961b38)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee0a038)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee0a1c8)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a0878
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a1c58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a1c58
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a3a28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a3a28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a4e08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a4e08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a57f8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a57f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a9398
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a9398
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a9d88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a9d88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34eea2418
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eea2418
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee4f0f8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee4f0f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee520e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee520e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee55688
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee55688
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee56a68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee56a68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee590e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee590e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5cc88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5cc88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5d678
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5d678
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5ef38
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5ef38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079f498
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079f498
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079fe88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079fe88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a1268
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a1268
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a3038
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a3038
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a61e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a61e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a6bd8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a6bd8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a75c8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a75c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a7fb8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a7fb8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a89a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a89a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346c23f78
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eedce38)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a6058)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a61e8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee1db08)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079fcf8)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079fe88)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee1c9b8)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079f308)
+[LOG] SoundI::release                          :         water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079f498)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346c23f78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34eed5908
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eed5908
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee50d08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee50d08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee516f8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee516f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee534c8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee534c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee53eb8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee53eb8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee57e48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee57e48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5aeb8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5aeb8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5b8a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5b8a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5f928
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5f928
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee60318
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee60318
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee60d08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee60d08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079d998
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079d998
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34079e388
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34079e388
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a2648
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a2648
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc3407a4418
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc3407a4418
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34eed61b8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34eed61b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee52ad8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee52ad8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee56078
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee56078
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5a4c8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5a4c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5c298
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5c298
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5e068
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5e068
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee5ea58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee5ea58
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc346b09168
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc346b09168
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee62ad8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee62ad8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee634c8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee634c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee616f8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee616f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34ee620e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34ee620e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc340787838
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 11751616
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 33216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc340787b00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar 5', format=5, channels=1, frequency=48000, lengthbytes=261664, lengthpcm=1840269, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.957259.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc340787838
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fc34e91d3e8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 11751616
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 33216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fc34e2c6470
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano 4', format=5, channels=1, frequency=48000, lengthbytes=84704, lengthpcm=1204363, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.967969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fc34e91d3e8
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407fc288)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee53d28)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee53eb8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346962c88)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee0aa28)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee0abb8)
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9c8118)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e2c5638)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c5bb68)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3531cc0c8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee04ff8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee05188)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3531caf78)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee04608)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee04798)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346977b08)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e2c5818)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e2ed448)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc34e9c25d8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc340796e18)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc340796fa8)
+[LOG] SoundI::release                          :  (0x7fc346a860a8)
+[LOG] SoundI::release                          :     Incoming Fax (0x7fc346a891d8)
+[LOG] SoundI::release                          :  (0x7fc346a8ae38)
+[LOG] SoundI::release                          :     Phone Ring (0x7fc346a8c0b8)
+[LOG] SoundI::release                          :  (0x7fc346a8b988)
+[LOG] SoundI::release                          :     Printer Jam (0x7fc346a8bd48)
+[LOG] SoundI::release                          :  (0x7fc33eefaa48)
+[LOG] SoundI::release                          :     Moving kick (0x7fc33eefabb8)
+[LOG] SoundI::release                          :  (0x7fc33eefbbb8)
+[LOG] SoundI::release                          :     Moving Bass (0x7fc33eefbd28)
+[LOG] SoundI::release                          :  (0x7fc33eefa478)
+[LOG] SoundI::release                          :     Snare (0x7fc33eefa5e8)
+[LOG] SoundI::release                          :  (0x7fc33eef9448)
+[LOG] SoundI::release                          :     hi-hat (0x7fc33eef95b8)
+[LOG] SoundI::release                          :  (0x7fc33eef9a18)
+[LOG] SoundI::release                          :     PauseSationary Bass (2) (0x7fc33eef9b88)
+[LOG] SoundI::release                          :  (0x7fc33eefc188)
+[LOG] SoundI::release                          :     Chords (0x7fc33eefc2f8)
+[LOG] SoundI::release                          :  (0x7fc33eefb5e8)
+[LOG] SoundI::release                          :     pause-stationary kick (0x7fc33eefb758)
+[LOG] SoundI::release                          :  (0x7fc346ca94b8)
+[LOG] SoundI::release                          :     628263__audacitier__car-crash (0x7fc346ca9878)
+[LOG] SoundI::release                          :  (0x7fc346cab678)
+[LOG] SoundI::release                          :     151624__qubodup__clank-car-crash-collision (0x7fc346c8cd68)
+[LOG] SoundI::release                          :  (0x7fc33eeff318)
+[LOG] SoundI::release                          :     185244__deleted-user-3277771__big-crash (0x7fc33eeff488)
+[LOG] SoundI::release                          :  (0x7fc346cadbd8)
+[LOG] SoundI::release                          :     332056__qubodup__fast-collision (0x7fc346cecf08)
+[LOG] SoundI::release                          :  (0x7fc33eeffc38)
+[LOG] SoundI::release                          :     592388__magnuswaker__car-crash-with-glass (0x7fc346cadf98)
+[LOG] SoundI::release                          :  (0x7fc346cabc18)
+[LOG] SoundI::release                          :     367624__fxkid2__crash (0x7fc346c5b3e8)
+[LOG] SoundI::release                          :  (0x7fc346ceb088)
+[LOG] SoundI::release                          :     449062__softwalls__car-accident-real-interior (0x7fc346cf1188)
+[LOG] SoundI::release                          :  (0x7fc33eeff7a8)
+[LOG] SoundI::release                          :     420356__eponn__crash (0x7fc33eeff918)
+[LOG] SoundI::release                          :  (0x7fc33eef9fe8)
+[LOG] SoundI::release                          :     funkymusic (0x7fc33eefa158)
+[LOG] SoundI::release                          :  (0x7fc346a867e8)
+[LOG] SoundI::release                          :     Piano 1 (0x7fc346a64f48)
+[LOG] SoundI::release                          :  (0x7fc33eef8c38)
+[LOG] SoundI::release                          :     Drums 5 (0x7fc33eef8da8)
+[LOG] SoundI::release                          :  (0x7fc345ffd868)
+[LOG] SoundI::release                          :     ding (0x7fc34e28c798)
+[LOG] SoundI::release                          :  (0x7fc346caa778)
+[LOG] SoundI::release                          :     ding2 (0x7fc346c5b7a8)
+[LOG] SoundI::release                          : Asian Cuisine (0x7fc3407e3708)
+[LOG] SoundI::release                          :     Asian Cuisine (0x7fc34ee572c8)
+[LOG] SoundI::release                          :     Asian Cuisine (0x7fc34ee57458)
+[LOG] SoundI::release                          : Park Sounds (0x7fc3407f38e8)
+[LOG] SoundI::release                          :     Park Sounds (0x7fc34ee4f818)
+[LOG] SoundI::release                          :     Park Sounds (0x7fc34ee4f9a8)
+[LOG] SoundI::release                          : Park Sounds (0x7fc35316b228)
+[LOG] SoundI::release                          :     Park Sounds (0x7fc34ee059e8)
+[LOG] SoundI::release                          :     Park Sounds (0x7fc34ee05b78)
+[LOG] SoundI::release                          : Pasta 2 (0x7fc34e99b508)
+[LOG] SoundI::release                          :     Pasta 2 (0x7fc3407995d8)
+[LOG] SoundI::release                          :     Pasta 2 (0x7fc340799768)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469a5428)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee0b418)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eed5298)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34ee1a718)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee08c58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee08de8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9c4878)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407981f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340798388)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9bf1e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee07fa8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee08138)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc35316db38)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee06dc8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee06f58)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469987d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ce8618)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346cf16d8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531d7938)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ceb1f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ceb388)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531d67e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c916c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c91858)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531d5698)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c90cd8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c90e68)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531d4548)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346caa5e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c90478)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531d33f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ca9bf8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ca9d88)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531d22a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346caaeb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346cab048)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531d1158)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ccb498)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ccb628)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531d0008)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ced418)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ced5a8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531ceeb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e941458)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9415e8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531cdd68)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e940a68)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e940bf8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531105c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e940078)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e940208)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531121a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93f688)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93f818)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353111058)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93ec98)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93ee28)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc35314a2b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93e2a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93e438)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353149168)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93d8b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93da48)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353148018)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93cec8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93d058)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353146ec8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93c4d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93c668)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353145d78)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93bae8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93bc78)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353144c28)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93b0f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93b288)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353143ad8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93a708)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e93a898)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353142988)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e939d18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e939ea8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc353141838)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e939328)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9394b8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531406e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e938938)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e938ac8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc35313f598)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e937f48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9380d8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346a902e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e937558)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9376e8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407cfd98)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee63338)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee634c8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346a85b58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e936b68)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e936cf8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407cec48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee62948)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee62ad8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346a8db88)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e935988)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e935b18)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346a8bba8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e934f98)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e935128)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346a8b068)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9345a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e934738)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346a96328)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e933bb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e933d48)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34694a118)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9331c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e933358)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9bbac8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9327d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e932968)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9ba978)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e94f448)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9320b8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9b9828)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e951e28)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e94fa78)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9b7038)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e950c38)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e950dc8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9b5ee8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eecd918)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e950768)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407dbef8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346b1ba48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee5ef38)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9b3c48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eecc538)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eecc6c8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9b2af8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eecbb48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eecbcd8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9b0858)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eeca768)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eeca8f8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407dd2f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee5d4e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee5d678)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407eebb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee5caf8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee5cc88)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9ae5b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec9388)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec9518)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9ac318)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec7fa8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec8138)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9ab1c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec75b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec7748)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9aa078)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec6bc8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec6d58)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a8f28)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec6318)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eec64a8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a7dd8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee68e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee6a78)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a6c88)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee5ef8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee6088)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a5b38)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee5508)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee5698)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a49e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee4b18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee4ca8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a3898)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346a88a18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc33eee44b8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a2748)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ce6bc8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346a907f8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a15f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346cacf08)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346ca90d8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9a04a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c5b208)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeaad88)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e99f358)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee6ec68)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c2b908)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407e7cc8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee58f58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee590e8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9cb508)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c8ef88)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c0c308)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9ca3b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c2ae58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346cac908)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9c9268)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeadac8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346c92b88)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9c7158)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e952818)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc345f92f68)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d4cf8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc345f75488)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e2c6848)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d3ba8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469f0b18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346e0dd18)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d2a58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34076b3c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469a1148)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d1908)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e2f73d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc345f6ba38)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d07b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc345f775d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc345f47798)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9cf668)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407622d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34076b7d8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9ce518)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc345f75838)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc345f71418)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9cc278)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407310d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34071f158)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407e1af8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee568d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee56a68)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d76c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407786e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340778878)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d6578)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346994b88)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34071fe78)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d5428)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340731c18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340777f58)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9d8e68)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407321b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34076a568)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407ff2a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee554f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee55688)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9dab18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34076b648)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469a4a48)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9de0d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34076aec8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469a43d8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9dcf88)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340795298)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340795428)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9dbe38)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407948a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340794a38)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9e9dd8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340793eb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340794048)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9e8c88)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407934c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340793658)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9e7c78)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340792ad8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340792c68)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9e6b28)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407920e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340792278)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9e59d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407916f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340791888)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34ee6be08)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340790d08)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc340790e98)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34ee249b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98e158)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346811718)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c15838)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98d768)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98d8f8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407f8d48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee51f58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee520e8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346cd7dc8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98cd78)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98cf08)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c974b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98c388)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98c518)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c96368)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98b998)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98bb28)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346cbf5c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98afa8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e98b138)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c464c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346b22df8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346b22f88)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c45378)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346b22548)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346b226d8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346cd6ea8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346b21928)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346b21ab8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c21e38)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407c52c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407c5458)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346ce2da8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeb0298)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeb0428)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c9e798)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeaf8a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeafa38)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c9f908)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeaeeb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeaf048)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c51cc8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee1fe18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee1ffa8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3407f2798)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eebef58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee4f0f8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c4dec8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eeded68)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eedeef8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e985a08)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eea2288)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eea2418)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c20248)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eede378)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34eede508)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346ccee88)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e7a48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e7bd8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c5d308)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e7058)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e71e8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c42b18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e6668)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e67f8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c47a78)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e5c78)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e5e08)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c9ae58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e5288)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531e5418)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c1ea18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e97a7c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e97a958)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346c281f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e979dd8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e979f68)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346cea908)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9793e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e979578)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9e4308)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e99e0f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e99e288)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e9814c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a9bf8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a9d88)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469ced38)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e99d708)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e99d898)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34e980378)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a9208)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a9398)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469cdbe8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9c5bc8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e99cea8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469cca98)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e99c848)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e99c9d8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469cb948)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531df298)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531df428)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469ca7f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531de8a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dea38)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469c96a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531ddeb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531de048)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469ec308)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dd4c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dd658)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469eb2f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dcc18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dcda8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469ea338)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dc428)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dc5b8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469e91e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dba38)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3531dbbc8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469e8098)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9bebe8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9bed78)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469e6f48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9be1f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9be388)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469e5df8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9bd808)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34e9bd998)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469e4b58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee182e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee18478)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469e28b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee170a8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee17238)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469c7a48)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee166b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee16848)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469be098)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee16248)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee163d8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34eedbce8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a5668)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a57f8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346915468)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee6d998)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee6db28)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34eedab98)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a4c78)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a4e08)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346939cb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee6cfa8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee6d138)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34698d768)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee6c0e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34ee6c748)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346920258)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346949ca8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346949e38)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34691f108)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469492b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346949448)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531e4a28)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a3898)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a3a28)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469c37b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469bb898)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346948b98)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346963f08)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469b62e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469b6478)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346987bc8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469ba4e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469ba678)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346986a78)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d8068)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d81f8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34ee9f218)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a1ac8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a1c58)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469847d8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d6c88)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d6e18)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469837c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d6298)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d6428)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34ee1ec58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a06e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3407a0878)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346965408)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d44c8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d4658)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469642b8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d3ad8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d3c68)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34691d108)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d30e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d3278)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34691bfb8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d26f8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d2888)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346929888)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d1d08)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d1e98)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34697b388)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d1518)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d16a8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc34697a238)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d0b28)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d0cb8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3531e2a18)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34079ea58)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc34079ebe8)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc3469790e8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d0278)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc3469d0408)
+[LOG] SoundI::release                          : videoplayback-2.2Traffic Sound (0x7fc346990aa8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346a42dd8)
+[LOG] SoundI::release                          :     videoplayback-2.2Traffic Sound (0x7fc346a2a548)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc3407de448)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee5ded8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee5e068)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc3407f0e48)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34079e1f8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34079e388)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc34eed9a48)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc3407a4288)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc3407a4418)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc3407eda68)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee5c108)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee5c298)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc3407e09a8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee55ee8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee56078)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc34e9848b8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34eed6028)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34eed61b8)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc340732e78)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34079d808)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34079d998)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc34e9c3728)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc340797808)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc340797998)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc340761c78)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34079ce18)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34079cfa8)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc34eed8758)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc3407a24b8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc3407a2648)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc3407ea678)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee5a338)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee5a4c8)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc3407f9e98)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee52948)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee52ad8)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc34ee1b868)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee09648)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee097d8)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc35316c9e8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee063d8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee06568)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc3407daee8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc346b08fd8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc346b09168)
+[LOG] SoundI::release                          : videoplayback-5Police siren (0x7fc3407df598)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee5e8c8)
+[LOG] SoundI::release                          :     videoplayback-5Police siren (0x7fc34ee5ea58)
+[LOG] SoundI::release                          : Drums 6 (0x7fc3469efe98)
+[LOG] SoundI::release                          :     Drums 6 (0x7fc33ee8dbe8)
+[LOG] SoundI::release                          :     Drums 6 (0x7fc33ee8dd78)
+[LOG] SoundI::release                          : Piano 4 (0x7fc34e91d3e8)
+[LOG] SoundI::release                          :     Piano 4 (0x7fc34e948318)
+[LOG] SoundI::release                          :     Piano 4 (0x7fc34e9484a8)
+[LOG] SoundI::release                          : Piano 2 (0x7fc3407bf138)
+[LOG] SoundI::release                          :     Piano 2 (0x7fc33ee8d1f8)
+[LOG] SoundI::release                          :     Piano 2 (0x7fc33ee8d388)
+[LOG] SoundI::release                          : Guitar 5 (0x7fc340787838)
+[LOG] SoundI::release                          :     Guitar 5 (0x7fc345f2f8e8)
+[LOG] SoundI::release                          :     Guitar 5 (0x7fc34e947bf8)
+[LOG] SoundI::release                          : Guitar 4 (0x7fc3469a35a8)
+[LOG] SoundI::release                          :     Guitar 4 (0x7fc33ee8c948)
+[LOG] SoundI::release                          :     Guitar 4 (0x7fc33ee8cad8)
+[LOG] SoundI::release                          : 07035047 (0x7fc3407e6b78)
+[LOG] SoundI::release                          :     07035047 (0x7fc34ee586a8)
+[LOG] SoundI::release                          :     07035047 (0x7fc34ee58838)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3531c9e28)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eea3a98)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eea3c28)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407ec918)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee5b718)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee5b8a8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34e983768)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eed5778)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eed5908)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407eb7c8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee5ad28)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee5aeb8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34e982618)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346811e38)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346c23f78)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34698bdc8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079c428)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079c5b8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346946ef8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346c8d278)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346c8d408)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34e97f228)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a8818)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a89a8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346f1a9b8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a7e28)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a7fb8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34e97bf18)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a7438)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a75c8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee195c8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079a9b8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079ab48)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34e97adc8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a6a48)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a6bd8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407e4858)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee57cb8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee57e48)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc346f2a438)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc340799fc8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34079a158)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34e9c5f18)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc340798be8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc340798d78)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eed9768)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a2ea8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a3038)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407cdaf8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee61f58)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee620e8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407cc9a8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee61568)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee616f8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34e9c1488)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc340796428)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407965b8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34eeaa408)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a10d8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407a1268)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407cb998)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee60b78)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee60d08)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407fb138)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee53338)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee534c8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34e9c0338)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34076a8f8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34076aa88)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407d7e58)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee60188)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee60318)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3531da4f8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee077b8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee07948)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407d93a8)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee5f798)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee5f928)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407f5b88)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee51568)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee516f8)
+[LOG] SoundI::release                          : water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc3407f4a38)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee50b78)
+[LOG] SoundI::release                          :     water flows into the drain#sound effect#mastersoundDrain SOunds (0x7fc34ee50d08)
+[LOG] SoundI::release                          : dancingloop (0x7fc346a8f588)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed2ca8)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed2e38)
+[LOG] SoundI::release                          : dancingloop (0x7fc3407775d8)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed23f8)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed2588)
+[LOG] SoundI::release                          : dancingloop (0x7fc340776348)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed1b48)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed1cd8)
+[LOG] SoundI::release                          : dancingloop (0x7fc3407750b8)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eecea48)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eecf528)
+[LOG] SoundI::release                          : dancingloop (0x7fc346a8d198)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed3e08)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed3f98)
+[LOG] SoundI::release                          : dancingloop (0x7fc346a8c878)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed3558)
+[LOG] SoundI::release                          :     dancingloop (0x7fc33eed36e8)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc34e9b19a8)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc33eecb158)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc33eecb2e8)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc34e9af708)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc33eec9d78)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc33eec9f08)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc34ee6acb8)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc3407c06d8)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc3407c0868)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc34e9b86d8)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc34e951628)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc34e9517b8)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc34e9ad468)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc33eec8998)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc33eec8b28)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc346a87598)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc34e936178)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc34e936308)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc34e9b4d98)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc33eeccf28)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc33eecd0b8)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc346977f98)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc346a23448)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc346addf78)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc346985928)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc3469d7678)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc3469d7808)
+[LOG] SoundI::release                          : videoplayback-6Ambulance (0x7fc3469e3a08)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc34ee17a98)
+[LOG] SoundI::release                          :     videoplayback-6Ambulance (0x7fc34ee6c528)
+[LOG] SoundI::release                          : Arp (0x7fc340773d68)
+[LOG] SoundI::release                          :     Arp (0x7fc33ee8e448)
+[LOG] SoundI::release                          :     Arp (0x7fc33ee8e5d8)
+[LOG] SoundI::release                          : Class_Sound (0x7fc3407e9528)
+[LOG] SoundI::release                          :     Class_Sound (0x7fc34ee59948)
+[LOG] SoundI::release                          :     Class_Sound (0x7fc34ee59ad8)
+[LOG] SoundI::release                          : Class_Sound (0x7fc3407fe158)
+[LOG] SoundI::release                          :     Class_Sound (0x7fc34ee54718)
+[LOG] SoundI::release                          :     Class_Sound (0x7fc34ee54c98)
+[LOG] SoundI::release                          :  (0x7fc33eefe6c8)
+[LOG] SoundI::release                          :     Stagnant revving (0x7fc33eefe838)
+[LOG] SoundI::release                          :  (0x7fc33eefd558)
+[LOG] SoundI::release                          :     Constant Acceleration (0x7fc33eefd6c8)
+[LOG] SoundI::release                          :  (0x7fc33eefdb28)
+[LOG] SoundI::release                          :     Deceleration 2 (0x7fc33eefdc98)
+[LOG] SoundI::release                          :  (0x7fc33eefcf88)
+[LOG] SoundI::release                          :     Acceleration Up 1 (0x7fc33eefd0f8)
+[LOG] SoundI::release                          :  (0x7fc33eefc9b8)
+[LOG] SoundI::release                          :     Deceleration 1 (0x7fc33eefcb28)
+[LOG] SoundI::release                          :  (0x7fc33eefe0f8)
+[LOG] SoundI::release                          :     Acceleration Up 2 (0x7fc33eefe268)
+[LOG] SoundI::release                          :  (0x7fc346cac1d8)
+[LOG] SoundI::release                          :     ding3 (0x7fc346cac778)
+[LOG] SoundI::release                          :  (0x7fc33eefb018)
+[LOG] SoundI::release                          :     Pizza Ball Stinger (0x7fc33eefb188)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.

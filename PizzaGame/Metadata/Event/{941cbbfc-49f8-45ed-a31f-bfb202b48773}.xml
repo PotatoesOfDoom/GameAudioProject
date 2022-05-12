@@ -669,7 +669,7 @@
 			<value>5000</value>
 		</property>
 		<property name="gain">
-			<value>25</value>
+			<value>8.5</value>
 		</property>
 	</object>
 	<object class="Sidechain" id="{22385c36-4716-4ce5-9c29-d407ba66c298}" />
