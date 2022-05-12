@@ -96,7 +96,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{f693798a-bb78-4729-a20c-2bf6a99115cb}">
 		<property name="volume">
-			<value>10</value>
+			<value>9.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{9ceea6db-11c2-432d-ba82-b5a7a220a7e0}</destination>
@@ -250,10 +250,9 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{9ceea6db-11c2-432d-ba82-b5a7a220a7e0}">
 		<relationship name="effects">
-			<destination>{13f7f244-150e-459f-af0e-3ed92bf69edc}</destination>
-			<destination>{d36d67fe-f032-4f44-a968-87bf9b21a402}</destination>
-			<destination>{500d6e80-fa76-40da-835d-6d4f82e74e23}</destination>
 			<destination>{19bc3eef-3d18-44c7-bddc-c0147145d05c}</destination>
+			<destination>{cf77f4e8-316d-46cf-9388-896e8717a954}</destination>
+			<destination>{57568507-a58c-4770-8d1a-9ac0eb605b92}</destination>
 			<destination>{4d86a6c5-4895-4dec-90a0-ac2c8dc6eb0c}</destination>
 			<destination>{65ca0949-e75a-41f2-9685-d9359294934c}</destination>
 		</relationship>
@@ -334,21 +333,6 @@
 			<value>52</value>
 		</property>
 	</object>
-	<object class="GainEffect" id="{13f7f244-150e-459f-af0e-3ed92bf69edc}">
-		<property name="gain">
-			<value>10</value>
-		</property>
-	</object>
-	<object class="GainEffect" id="{d36d67fe-f032-4f44-a968-87bf9b21a402}">
-		<property name="gain">
-			<value>10</value>
-		</property>
-	</object>
-	<object class="GainEffect" id="{500d6e80-fa76-40da-835d-6d4f82e74e23}">
-		<property name="gain">
-			<value>10</value>
-		</property>
-	</object>
 	<object class="MultibandEqEffect" id="{19bc3eef-3d18-44c7-bddc-c0147145d05c}">
 		<property name="filterTypeA">
 			<value>4</value>
@@ -379,6 +363,16 @@
 		</property>
 		<property name="gainB">
 			<value>-7.5</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{cf77f4e8-316d-46cf-9388-896e8717a954}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{57568507-a58c-4770-8d1a-9ac0eb605b92}">
+		<property name="gain">
+			<value>10</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{4d86a6c5-4895-4dec-90a0-ac2c8dc6eb0c}" />
