@@ -2378,3 +2378,60 @@ System memory in use after: 80.6 MB.
 Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2119.
 Total: 4.211400 ms (FindLiveObjects: 0.635700 ms CreateObjectMapping: 0.272000 ms MarkObjects: 3.223000 ms  DeleteObjects: 0.077000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 302.591619 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(6cc187dac1f2a30428f9e7bf62e8e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(6cc187dac1f2a30428f9e7bf62e8e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6eae7cfb87e8dd6fb01d056db5f9b3') in 0.007118 seconds
+  Import took 0.010848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004993 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(6cc187dac1f2a30428f9e7bf62e8e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(6cc187dac1f2a30428f9e7bf62e8e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6eae7cfb87e8dd6fb01d056db5f9b3') in 0.002922 seconds
+  Import took 0.007450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046997 seconds.
+  path: Assets/Prefabs/bigvegas Variant.prefab
+  artifactKey: Guid(81ab9b36a71fd444fb3e86be53caecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/bigvegas Variant.prefab using Guid(81ab9b36a71fd444fb3e86be53caecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6ab580323d4e6e30d7345f8b430a31') in 0.217732 seconds
+  Import took 0.223106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Checkpoint.prefab
+  artifactKey: Guid(daa95576f5acf48728739ba430173205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Checkpoint.prefab using Guid(daa95576f5acf48728739ba430173205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5d1a78137b21c59d355c721a8d0fb5') in 0.017330 seconds
+  Import took 0.022080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Prefabs/Ch14_nonPBR Variant.prefab
+  artifactKey: Guid(666919c86b58141a1be0e97d643a0781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ch14_nonPBR Variant.prefab using Guid(666919c86b58141a1be0e97d643a0781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20587d44e697d9ede4e7d68237b315ba') in 0.061906 seconds
+  Import took 0.067584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/sporty_granny Variant.prefab
+  artifactKey: Guid(d123b6f9742d11b40a0025bd99837972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sporty_granny Variant.prefab using Guid(d123b6f9742d11b40a0025bd99837972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578a0336e87a25c07c486b68b716aa17') in 0.056118 seconds
+  Import took 0.063749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Speaker2 (2) Variant.prefab
+  artifactKey: Guid(57c72bfc4a5d0438dba12ec5ceb3b7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Speaker2 (2) Variant.prefab using Guid(57c72bfc4a5d0438dba12ec5ceb3b7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa84c59fcc1e2da31d5367a1598479e0') in 0.043301 seconds
+  Import took 0.047905 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
