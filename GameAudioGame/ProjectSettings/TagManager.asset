@@ -11,6 +11,7 @@ TagManager:
   - Target
   - Speaker
   - Building
+  - Tree
   layers:
   - Default
   - TransparentFX

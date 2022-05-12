@@ -43,6 +43,11 @@ public class PersonColision : MonoBehaviour
             FMODUnity.RuntimeManager.PlayOneShot("event:/Car Sounds/Building Crash Sounds");
             FMODUnity.RuntimeManager.PlayOneShot("event:/Car Sounds/Crash Sounds");
         }
-        
+
+        if (collision.gameObject.tag == "Tree")
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Car Sounds/Tree Collision");
+        }
+
     }
 }
