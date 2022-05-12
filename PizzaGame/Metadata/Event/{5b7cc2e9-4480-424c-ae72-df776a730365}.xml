@@ -252,6 +252,9 @@
 		<property name="surroundLFELevel">
 			<value>-80</value>
 		</property>
+		<property name="disabledSpeakers">
+			<value>52</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{463943b2-069c-4ca3-bcc8-cdb427040d78}" />
 	<object class="MultiSound" id="{618de8cc-d465-46bc-8ff0-310559e12389}">

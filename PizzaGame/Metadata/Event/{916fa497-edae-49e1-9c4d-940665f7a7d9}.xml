@@ -139,7 +139,14 @@
 			<destination>{f99eb652-29fa-4cdb-944f-4c9c6561ac59}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{d673020c-c639-4ede-8d6b-2a7a461f4180}" />
+	<object class="MixerBusPanner" id="{d673020c-c639-4ede-8d6b-2a7a461f4180}">
+		<property name="surroundLFELevel">
+			<value>-80</value>
+		</property>
+		<property name="disabledSpeakers">
+			<value>52</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3a9efeaf-b9f3-4146-a55b-bba1c222e13f}" />
 	<object class="MixerBusEffectChain" id="{e780ab91-3d4c-45c6-be46-1a7c3d9089ed}">
 		<relationship name="effects">
