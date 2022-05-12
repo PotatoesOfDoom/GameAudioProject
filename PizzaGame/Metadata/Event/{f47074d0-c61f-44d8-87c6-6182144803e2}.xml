@@ -137,11 +137,44 @@
 	<object class="MixerBusFader" id="{ad0dda2c-3c5c-4da9-be38-ee5fad186de4}" />
 	<object class="MixerBusEffectChain" id="{03144df3-fa5f-4885-a649-1f112ee81034}">
 		<relationship name="effects">
+			<destination>{316e03c5-47d8-49ac-bca0-99c7a48f9d28}</destination>
 			<destination>{26feb34c-23d9-42a8-82b2-31d890851892}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4c26af99-dabb-45c1-b519-a6fc56814e16}" />
 	<object class="MixerBusFader" id="{d4cbc2ac-a435-4b56-bec4-45863263a255}" />
 	<object class="SpatialiserEffect" id="{d99d86d6-ea23-4611-8084-95955ee3e840}" />
+	<object class="MultibandEqEffect" id="{316e03c5-47d8-49ac-bca0-99c7a48f9d28}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="filterTypeE">
+			<value>3</value>
+		</property>
+		<property name="frequencyA">
+			<value>20</value>
+		</property>
+		<property name="frequencyB">
+			<value>560</value>
+		</property>
+		<property name="frequencyE">
+			<value>4800</value>
+		</property>
+		<property name="qualityA">
+			<value>0.479999989</value>
+		</property>
+		<property name="qualityB">
+			<value>2.70000005</value>
+		</property>
+		<property name="qualityE">
+			<value>0.100000001</value>
+		</property>
+		<property name="gainB">
+			<value>-7.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{26feb34c-23d9-42a8-82b2-31d890851892}" />
 </objects>
