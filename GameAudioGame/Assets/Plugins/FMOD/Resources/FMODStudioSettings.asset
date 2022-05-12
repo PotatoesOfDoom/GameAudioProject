@@ -490,6 +490,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Ambience
+  - Bank A
   - Car Bank
   - Collisions
   - Interactable
