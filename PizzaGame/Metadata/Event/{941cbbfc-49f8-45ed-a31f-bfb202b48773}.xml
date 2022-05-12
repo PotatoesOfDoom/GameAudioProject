@@ -253,7 +253,7 @@
 	</object>
 	<object class="SingleSound" id="{0ef7953e-fc42-4660-8596-33c4b62e90f3}">
 		<property name="length">
-			<value>9.5999999999999996</value>
+			<value>9.4000000000000004</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{b36fb836-b473-455f-bf83-bf79217ad73e}</destination>
@@ -642,13 +642,16 @@
 	<object class="MixerBusPanner" id="{671e0530-3869-4124-866a-9daabb1c7b62}" />
 	<object class="CompressorEffect" id="{b33ae84e-c969-4f8c-b824-dc013b3a8a95}">
 		<property name="threshold">
-			<value>-13</value>
+			<value>-19</value>
 		</property>
 		<property name="ratio">
-			<value>1.55000007</value>
+			<value>1.64999998</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
 		</property>
 		<property name="releaseTime">
-			<value>10</value>
+			<value>5000</value>
 		</property>
 	</object>
 	<object class="Sidechain" id="{22385c36-4716-4ce5-9c29-d407ba66c298}" />
