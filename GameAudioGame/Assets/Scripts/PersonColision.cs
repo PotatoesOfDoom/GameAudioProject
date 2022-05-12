@@ -38,5 +38,10 @@ public class PersonColision : MonoBehaviour
         }
         
         
+        if (collision.gameObject.tag == "Building")
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Car Sounds/Building Crash Sounds");
+        }
+        
     }
 }

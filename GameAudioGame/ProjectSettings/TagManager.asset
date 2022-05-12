@@ -10,6 +10,7 @@ TagManager:
   - Car
   - Target
   - Speaker
+  - Building
   layers:
   - Default
   - TransparentFX
