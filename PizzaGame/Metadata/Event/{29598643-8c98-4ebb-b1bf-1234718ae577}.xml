@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{bfcba411-6829-47aa-8ea6-0b6b2e83406f}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{bfdfc836-b413-4b72-82c9-f374f64478ce}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{247cf8c6-54f9-42e2-bbe5-7e9165684aad}">
 		<relationship name="masterBus">
@@ -133,7 +136,14 @@
 			<destination>{3cf54e24-c4b6-4754-a6ef-ae1e0d2f311f}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{bb889aa3-ecb2-40ba-bd54-d2a107a1807b}" />
+	<object class="MixerBusPanner" id="{bb889aa3-ecb2-40ba-bd54-d2a107a1807b}">
+		<property name="surroundLFELevel">
+			<value>-80</value>
+		</property>
+		<property name="disabledSpeakers">
+			<value>52</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f0abf769-f099-4209-88b7-16035ae25c93}" />
 	<object class="MixerBusEffectChain" id="{8418eb01-6346-4d92-91cb-fb99c7e3674d}">
 		<relationship name="effects">
