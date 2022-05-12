@@ -222,7 +222,7 @@ namespace RVP
             localAngularVel = tr.InverseTransformDirection(rb.angularVelocity);
             velMag = rb.velocity.magnitude; 
             instance.setParameterByName("RPM", velMag/30); 
-            musicInstance.setParameterByName("CarGoVroom", velMag/30); 
+            musicInstance.setParameterByName("RPM", velMag/20); 
             
             sqrVelMag = rb.velocity.sqrMagnitude;
             forwardDir = tr.forward;
