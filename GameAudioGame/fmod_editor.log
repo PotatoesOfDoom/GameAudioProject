@@ -7,7 +7,7 @@
 [LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7febf696b808 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7febf6d42408 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -20,3 +20,327 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7febb5ed49b8 : node = 0x7febb5eeae20
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7febb5f9d888.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7febb5ed49b8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17248
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7febb5eeaf30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar 4', format=5, channels=1, frequency=48000, lengthbytes=84096, lengthpcm=831969, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.982704.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7febb5ed49b8
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Collisions.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7feb96dc33c8 : node = 0x7feb96d57b00
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7febb5f9d888.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7feb96dc33c8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Collisions.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 588256
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11392
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7feb96d57c10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 28
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='136629__smmassuda__crashing', format=5, channels=1, frequency=48000, lengthbytes=136480, lengthpcm=770048, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.618701.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7feb96dc33c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7febb6b33498
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7febb6b33498
+[LOG] SoundI::release                          : 136629__smmassuda__crashing (0x7feb96dc33c8)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7feba010b068)
+[LOG] SoundI::release                          :     136629__smmassuda__crashing (0x7febb6e82708)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7feb96da0468
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7feb96da0468
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7febb6b33498
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7febb6b33498
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 272768
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 11168
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000d22094c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x17fa88cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x17fa88d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x17fa88da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x17fa88e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7febb5612f08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Curzon St 6', format=5, channels=1, frequency=48000, lengthbytes=6496, lengthpcm=35897, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.887207.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 272768
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 11168
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000d22094c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x17fa88cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x17fa88d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x17fa88da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x17fa88e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7febb5612f08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Curzon St 2', format=5, channels=1, frequency=48000, lengthbytes=3776, lengthpcm=35924, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 272768
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 11168
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000d22094c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x17fa88cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x17fa88d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x17fa88da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x17fa88e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7febb5612f08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Curzon St 4', format=5, channels=1, frequency=48000, lengthbytes=6752, lengthpcm=35904, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.339630.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 272768
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 11168
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000d22094c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x17fa88cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x17fa88d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x17fa88da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x17fa88e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7febb5612f08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Curzon St 7', format=5, channels=1, frequency=48000, lengthbytes=6176, lengthpcm=35867, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.890778.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 272768
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 11168
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000d22094c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x17fa88cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x17fa88d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x17fa88da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x17fa88e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7febb5612f08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Curzon St', format=5, channels=1, frequency=48000, lengthbytes=6336, lengthpcm=35915, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.886139.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 272768
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 11168
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000d22094c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x17fa88cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x17fa88d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x17fa88da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x17fa88e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7febb5612f08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Curzon St 3', format=5, channels=1, frequency=48000, lengthbytes=6368, lengthpcm=36000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.890625.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 272768
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 11168
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000d22094c
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x17fa88cbc
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x17fa88d73
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x17fa88da0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x17fa88e3e
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7febb5612f08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Curzon St 5', format=5, channels=1, frequency=48000, lengthbytes=6592, lengthpcm=35921, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.352814.
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7febb5d6dbf8 : node = 0x7feb96795950
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7febb5f9d888.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7febb5d6dbf8
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2939776
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17600
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7feb96795a60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Arp', format=5, channels=2, frequency=48000, lengthbytes=141632, lengthpcm=460800, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.865798.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7febb5d6dbf8
+[LOG] SystemI::createSound                     : filename = ../PizzaGame/Build/Desktop/Ambience.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7febb5df5748 : node = 0x7febb7a135e0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7febb5f9d888.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7febb5df5748
+[LOG] SystemI::createSoundInternal             :     Create name='../PizzaGame/Build/Desktop/Ambience.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 8196448
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17248
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7febb7a136f0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drums 2', format=5, channels=1, frequency=48000, lengthbytes=246816, lengthpcm=1466182, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.990946.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7febb5df5748
+[LOG] SoundI::release                          : Arp (0x7febb697f268)
+[LOG] SoundI::release                          :     Arp (0x7feb96d69298)
+[LOG] SoundI::release                          :     Arp (0x7feb96d6f2b8)
+[LOG] SoundI::release                          :  (0x7febb5fba878)
+[LOG] SoundI::release                          :     Stagnant revving (0x7febb5fba1d8)
+[LOG] SoundI::release                          :  (0x7febb5ff6708)
+[LOG] SoundI::release                          :     Constant Acceleration (0x7febb5ff12a8)
+[LOG] SoundI::release                          :  (0x7febb5fea308)
+[LOG] SoundI::release                          :     Deceleration 2 (0x7febb5fe7868)
+[LOG] SoundI::release                          :  (0x7febb5ff7ec8)
+[LOG] SoundI::release                          :     Acceleration Up 1 (0x7febb5ffebf8)
+[LOG] SoundI::release                          :  (0x7febb5fa2248)
+[LOG] SoundI::release                          :     Deceleration 1 (0x7febb5fa2788)
+[LOG] SoundI::release                          :  (0x7febb5fd8d28)
+[LOG] SoundI::release                          :     Acceleration Up 2 (0x7febb5fd80a8)
+[LOG] SoundI::release                          :  (0x7febb5f4ad98)
+[LOG] SoundI::release                          :     Moving kick (0x7febb5f4a208)
+[LOG] SoundI::release                          :  (0x7febb5fd22e8)
+[LOG] SoundI::release                          :     Moving Bass (0x7febb5fc7498)
+[LOG] SoundI::release                          :  (0x7febb5f5d178)
+[LOG] SoundI::release                          :     Snare (0x7febb5f59748)
+[LOG] SoundI::release                          :  (0x7febb5f98378)
+[LOG] SoundI::release                          :     hi-hat (0x7febb5f953a8)
+[LOG] SoundI::release                          :  (0x7febb5f88c88)
+[LOG] SoundI::release                          :     PauseSationary Bass (2) (0x7febb5f88458)
+[LOG] SoundI::release                          :  (0x7febb5fefbd8)
+[LOG] SoundI::release                          :     Chords (0x7febb5fe29b8)
+[LOG] SoundI::release                          :  (0x7febb5f22bf8)
+[LOG] SoundI::release                          :     pause-stationary kick (0x7febb5f17988)
+[LOG] SoundI::release                          :  (0x7febb5fb2bb8)
+[LOG] SoundI::release                          :     628263__audacitier__car-crash (0x7febb5fcb028)
+[LOG] SoundI::release                          :  (0x7febb5fe3168)
+[LOG] SoundI::release                          :     151624__qubodup__clank-car-crash-collision (0x7febb5f25cf8)
+[LOG] SoundI::release                          :  (0x7febb5f35a48)
+[LOG] SoundI::release                          :     185244__deleted-user-3277771__big-crash (0x7febb5f28e48)
+[LOG] SoundI::release                          :  (0x7febb5fe6258)
+[LOG] SoundI::release                          :     332056__qubodup__fast-collision (0x7febb5fdae98)
+[LOG] SoundI::release                          :  (0x7febb5fa8ca8)
+[LOG] SoundI::release                          :     592388__magnuswaker__car-crash-with-glass (0x7febb5f29748)
+[LOG] SoundI::release                          :  (0x7febb5f8b7e8)
+[LOG] SoundI::release                          :     367624__fxkid2__crash (0x7febb5ffaae8)
+[LOG] SoundI::release                          :  (0x7febb5fc5268)
+[LOG] SoundI::release                          :     449062__softwalls__car-accident-real-interior (0x7febb5fbc288)
+[LOG] SoundI::release                          :  (0x7febb5f16748)
+[LOG] SoundI::release                          :     420356__eponn__crash (0x7febb5f69158)
+[LOG] SoundI::release                          :  (0x7febb5f784c8)
+[LOG] SoundI::release                          :     funkymusic (0x7febb5f71908)
+[LOG] SoundI::release                          : Drums 2 (0x7febb5df5748)
+[LOG] SoundI::release                          :     Drums 2 (0x7febb5d55be8)
+[LOG] SoundI::release                          :     Drums 2 (0x7febb5d3eda8)
+[LOG] SoundI::release                          : Piano 2 (0x7febb5f9e7e8)
+[LOG] SoundI::release                          :     Piano 2 (0x7feb96d60ee8)
+[LOG] SoundI::release                          :     Piano 2 (0x7feb96d71878)
+[LOG] SoundI::release                          : Guitar 4 (0x7febb5ed49b8)
+[LOG] SoundI::release                          :     Guitar 4 (0x7feb96aaad28)
+[LOG] SoundI::release                          :     Guitar 4 (0x7feb96ab4d28)
+[LOG] SoundI::release                          : Guitar 3 (0x7febb5f6da38)
+[LOG] SoundI::release                          :     Guitar 3 (0x7feb96d52598)
+[LOG] SoundI::release                          :     Guitar 3 (0x7febb79d10f8)
+[LOG] SoundI::release                          : Asian Cuisine (0x7febb5fb3878)
+[LOG] SoundI::release                          :     Asian Cuisine (0x7febb6b35308)
+[LOG] SoundI::release                          :     Asian Cuisine (0x7febb6b355b8)
+[LOG] SoundI::release                          : 07035047 (0x7febb5fa6458)
+[LOG] SoundI::release                          :     07035047 (0x7febb6b35ed8)
+[LOG] SoundI::release                          :     07035047 (0x7febb6b36188)
+[LOG] SoundI::release                          : Park Sounds (0x7febb5fd25b8)
+[LOG] SoundI::release                          :     Park Sounds (0x7febb6b33db8)
+[LOG] SoundI::release                          :     Park Sounds (0x7febb6b34068)
+[LOG] SoundI::release                          : Park Sounds (0x7febb5fde0d8)
+[LOG] SoundI::release                          :     Park Sounds (0x7febb6b32418)
+[LOG] SoundI::release                          :     Park Sounds (0x7febb6b326c8)
+[LOG] SoundI::release                          : Pasta 2 (0x7febb5fd3df8)
+[LOG] SoundI::release                          :     Pasta 2 (0x7febb6b331e8)
+[LOG] SoundI::release                          :     Pasta 2 (0x7febb6b33498)
+[LOG] SoundI::release                          : dancingloop (0x7febb69870e8)
+[LOG] SoundI::release                          :     dancingloop (0x7febb5d4c6f8)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96da4d68)
+[LOG] SoundI::release                          : dancingloop (0x7febb69857c8)
+[LOG] SoundI::release                          :     dancingloop (0x7febb5d24378)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96da0468)
+[LOG] SoundI::release                          : dancingloop (0x7febb6984168)
+[LOG] SoundI::release                          :     dancingloop (0x7febb5d92dd8)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96d9ad18)
+[LOG] SoundI::release                          : dancingloop (0x7febb6982c88)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96dec3b8)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96d79318)
+[LOG] SoundI::release                          : dancingloop (0x7febb6981848)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96dd8e08)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96d4c698)
+[LOG] SoundI::release                          : dancingloop (0x7febb69803b8)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96dccec8)
+[LOG] SoundI::release                          :     dancingloop (0x7feb96d5a8b8)
+[LOG] SoundI::release                          : Arp (0x7febb5d6dbf8)
+[LOG] SoundI::release                          :     Arp (0x7febb55dc788)
+[LOG] SoundI::release                          :     Arp (0x7feb96a4c418)
+[LOG] SoundI::release                          : Class_Sound (0x7febb5f9b5a8)
+[LOG] SoundI::release                          :     Class_Sound (0x7febb6b368e8)
+[LOG] SoundI::release                          :     Class_Sound (0x7febb6b36b78)
+[LOG] SoundI::release                          : Class_Sound (0x7febb5fcbd48)
+[LOG] SoundI::release                          :     Class_Sound (0x7febb6b34988)
+[LOG] SoundI::release                          :     Class_Sound (0x7febb6b34be8)
+[LOG] SoundI::release                          :  (0x7febb5fb23a8)
+[LOG] SoundI::release                          :     Piano 1 (0x7febb5f9a658)
+[LOG] SoundI::release                          :  (0x7febb5f75ee8)
+[LOG] SoundI::release                          :     Drums 5 (0x7febb5f720a8)
+[LOG] SoundI::release                          :  (0x7feb96739278)
+[LOG] SoundI::release                          :     Curzon St 2 (0x7febb5d59328)
+[LOG] SoundI::release                          :  (0x7febb78cdda8)
+[LOG] SoundI::release                          :     Curzon St 3 (0x7febb7c6ae28)
+[LOG] SoundI::release                          :  (0x7feb9673f4d8)
+[LOG] SoundI::release                          :     Curzon St 4 (0x7febb5dbfd88)
+[LOG] SoundI::release                          :  (0x7febb78df4d8)
+[LOG] SoundI::release                          :     Curzon St 5 (0x7febb7cc63a8)
+[LOG] SoundI::release                          :  (0x7febb5da2308)
+[LOG] SoundI::release                          :     Curzon St 6 (0x7febb5d5a718)
+[LOG] SoundI::release                          :  (0x7feb96dd9928)
+[LOG] SoundI::release                          :     Curzon St 7 (0x7febb5de13b8)
+[LOG] SoundI::release                          :  (0x7febb7881ff8)
+[LOG] SoundI::release                          :     Curzon St (0x7febb7c3b458)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
