@@ -9,6 +9,7 @@ TagManager:
   - Person
   - Car
   - Target
+  - Speaker
   layers:
   - Default
   - TransparentFX
