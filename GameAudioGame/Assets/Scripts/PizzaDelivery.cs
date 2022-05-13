@@ -9,7 +9,7 @@ public class PizzaDelivery : MonoBehaviour
 {
     public List<GameObject> targets;
     GameObject target;
-    float timer = 60f;
+    public float timer = 120f;
     public Text timerText;
     // Start is called before the first frame update
     void Start()
