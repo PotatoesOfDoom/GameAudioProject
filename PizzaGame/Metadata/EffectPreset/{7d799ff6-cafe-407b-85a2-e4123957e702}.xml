@@ -13,7 +13,7 @@
 	</object>
 	<object class="MixerSend" id="{14f69544-1031-48eb-a506-a6e8e94a13a8}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{22c16ca0-d821-4afe-a229-cccab5938d34}</destination>
