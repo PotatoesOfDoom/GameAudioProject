@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fail.unity
     guid: 0bea8972c6a626f41aad2ed736fe59c8
+  - enabled: 1
+    path: Assets/Scenes/PizzaDelivered.unity
+    guid: 824c0c4c97194f64892e4ad47f163353
   m_configObjects: {}
