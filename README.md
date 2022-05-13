@@ -14,3 +14,4 @@ https://www.spitfireaudio.com
 
 Other sounds were recorded. 
  
+Scripts featuring audio implementations: 
