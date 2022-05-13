@@ -1,137 +1,108 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19042.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 16312 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity2020.3.6f1\Editor\Unity.exe
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-V:/test/GameAudioGame
+/Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50148
-Successfully changed project path to: V:/test/GameAudioGame
-V:/test/GameAudioGame
+58808
+Successfully changed project path to: /Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
 Using Asset Import Pipeline V2.
-Platform WindowsStandaloneSupport does not support graphics device type 
-
-Refreshing native plugins compatible for Editor in 76.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 48.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path V:/test/GameAudioGame/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
-    Vendor:   
-    VRAM:     8079 MB
-    Driver:   30.0.14.7111
+2022-05-13 12:25:32.367 Unity[71905:27624227] iMac preferred device: AMD Radeon Pro 575 (high power)
+2022-05-13 12:25:32.367 Unity[71905:27624227] Metal devices available: 1
+2022-05-13 12:25:32.367 Unity[71905:27624227] 0: AMD Radeon Pro 575 (high power)
+2022-05-13 12:25:32.367 Unity[71905:27624227] Using device AMD Radeon Pro 575 (high power)
+Initializing Metal device caps: AMD Radeon Pro 575
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity2020.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56905
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity2020.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity2020.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity2020.3.6f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.005757 seconds.
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000503 seconds.
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 44.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.605 seconds
+- Completed reload, in  1.954 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007333 seconds.
+Registered in 0.002402 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
+- Completed reload, in  1.021 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Platform WindowsStandaloneSupport does not support graphics device type 
-
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
+Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.3 MB.
 
-Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2097.
-Total: 3.147600 ms (FindLiveObjects: 0.602600 ms CreateObjectMapping: 0.167600 ms MarkObjects: 2.277500 ms  DeleteObjects: 0.097600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/PizzaDelivered.unity
-  artifactKey: Guid(824c0c4c97194f64892e4ad47f163353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PizzaDelivered.unity using Guid(824c0c4c97194f64892e4ad47f163353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f399e814e390f464f7461914e006e9a1') in 0.015267 seconds
-  Import took 0.018598 seconds .
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 2.490249 ms (FindLiveObjects: 0.353552 ms CreateObjectMapping: 0.142903 ms MarkObjects: 1.903185 ms  DeleteObjects: 0.089252 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(8b3e6ee02caa2d243a36ae1ced8e6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(8b3e6ee02caa2d243a36ae1ced8e6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f73379a907e80e464e6b025ef228b4') in 0.002244 seconds
-  Import took 0.004825 seconds .
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(a3ce6cd52c032fd4391b60e6760d2726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(a3ce6cd52c032fd4391b60e6760d2726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e6d3ebb33ea45037203bae8cb0e44f') in 0.011341 seconds
+  Import took 0.014222 seconds .
 
 ========================================================================
 Received Prepare
-Platform WindowsStandaloneSupport does not support graphics device type 
-
 Registering precompiled user dll's ...
-Registered in 0.009602 seconds.
+Registered in 0.002953 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.bundle
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
+- Completed reload, in  1.214 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.3 MB.
-System memory in use after: 77.4 MB.
+System memory in use before: 149.9 MB.
+System memory in use after: 150.0 MB.
 
 Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2107.
-Total: 3.892400 ms (FindLiveObjects: 0.609900 ms CreateObjectMapping: 0.152700 ms MarkObjects: 3.081500 ms  DeleteObjects: 0.045200 ms)
+Total: 2.220447 ms (FindLiveObjects: 0.202728 ms CreateObjectMapping: 0.122792 ms MarkObjects: 1.861947 ms  DeleteObjects: 0.031710 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 22.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 44.7 MB.
-System memory in use after: 44.8 MB.
+System memory in use before: 117.5 MB.
+System memory in use after: 117.6 MB.
 
 Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2107.
-Total: 4.451000 ms (FindLiveObjects: 0.605600 ms CreateObjectMapping: 0.358700 ms MarkObjects: 3.431600 ms  DeleteObjects: 0.051800 ms)
+Total: 1.831379 ms (FindLiveObjects: 0.250883 ms CreateObjectMapping: 0.076505 ms MarkObjects: 1.470662 ms  DeleteObjects: 0.031647 ms)
 
