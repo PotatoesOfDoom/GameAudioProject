@@ -1,0 +1,303 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56875
+Successfully changed project path to: /Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame
+Using Asset Import Pipeline V2.
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Refreshing native plugins compatible for Editor in 48.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/s18125536/Documents/GitHub/GameAudioProject/GameAudioGame/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-13 11:05:43.224 Unity[67077:27415596] iMac preferred device: AMD Radeon Pro 575 (high power)
+2022-05-13 11:05:43.225 Unity[67077:27415596] Metal devices available: 1
+2022-05-13 11:05:43.225 Unity[67077:27415596] 0: AMD Radeon Pro 575 (high power)
+2022-05-13 11:05:43.225 Unity[67077:27415596] Using device AMD Radeon Pro 575 (high power)
+Initializing Metal device caps: AMD Radeon Pro 575
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56077
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000507 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 43.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.839 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1713 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.6 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2093.
+Total: 2.091054 ms (FindLiveObjects: 0.206112 ms CreateObjectMapping: 0.062661 ms MarkObjects: 1.743589 ms  DeleteObjects: 0.077174 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/PizzaDelivered.unity
+  artifactKey: Guid(824c0c4c97194f64892e4ad47f163353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PizzaDelivered.unity using Guid(824c0c4c97194f64892e4ad47f163353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2d8a869083679ec6e3c70b9eebab40') in 0.008516 seconds
+  Import took 0.010861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8b3e6ee02caa2d243a36ae1ced8e6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8b3e6ee02caa2d243a36ae1ced8e6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2bbfe42d2b01c0198e30afe185c77d') in 0.000712 seconds
+  Import took 0.002501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Scenes/dd2atwn-916c8e06-c911-4b87-8126-768b2425397d.png
+  artifactKey: Guid(9729fafb4149b694e89677c6f5ca9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dd2atwn-916c8e06-c911-4b87-8126-768b2425397d.png using Guid(9729fafb4149b694e89677c6f5ca9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f63f31a33a34075c37369e7b8acc9a') in 0.949220 seconds
+  Import took 0.951323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128426 seconds.
+  path: Assets/Scenes/dd2atwn-916c8e06-c911-4b87-8126-768b2425397d.png
+  artifactKey: Guid(9729fafb4149b694e89677c6f5ca9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dd2atwn-916c8e06-c911-4b87-8126-768b2425397d.png using Guid(9729fafb4149b694e89677c6f5ca9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f63f31a33a34075c37369e7b8acc9a') in 0.013644 seconds
+  Import took 0.016228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.165562 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(a3ce6cd52c032fd4391b60e6760d2726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(a3ce6cd52c032fd4391b60e6760d2726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35410fa092ba6aee5b5ff226a5e2dc93') in 0.006371 seconds
+  Import took 0.008743 seconds .
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.002507 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.bundle
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.0 MB.
+System memory in use after: 155.1 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2101.
+Total: 2.950005 ms (FindLiveObjects: 0.269008 ms CreateObjectMapping: 0.082003 ms MarkObjects: 2.463888 ms  DeleteObjects: 0.040013 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.654711 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(0d2e8fff30cae3f4fb068f45749956b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(0d2e8fff30cae3f4fb068f45749956b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d16f9a66928529c4587c4e0cdcf81c2') in 0.008372 seconds
+  Import took 0.010938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.253092 seconds.
+  path: Assets/Scripts/PizzaDelivery.cs
+  artifactKey: Guid(c27e263aaa8852b44aa0eb1a59337a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PizzaDelivery.cs using Guid(c27e263aaa8852b44aa0eb1a59337a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df60807a621d412db6939a4adca323c') in 0.754278 seconds
+  Import took 0.756827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.645148 seconds.
+  path: Assets/Scripts/PersonColision.cs
+  artifactKey: Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PersonColision.cs using Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b197c2399d95385a8fbd974fb6876289') in 0.008079 seconds
+  Import took 0.010752 seconds .
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.002334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.5 MB.
+System memory in use after: 159.6 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2103.
+Total: 1.562300 ms (FindLiveObjects: 0.201783 ms CreateObjectMapping: 0.050166 ms MarkObjects: 1.285265 ms  DeleteObjects: 0.024401 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.430472 seconds.
+  path: Assets/Scripts/TryAgain.cs
+  artifactKey: Guid(54ea5953b3b5f3f4689bfa3def81f8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TryAgain.cs using Guid(54ea5953b3b5f3f4689bfa3def81f8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7684b19c545959c7066cf44045ed8f34') in 0.010381 seconds
+  Import took 0.012870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.944651 seconds.
+  path: Assets/Scenes/PizzaDelivered.unity
+  artifactKey: Guid(824c0c4c97194f64892e4ad47f163353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PizzaDelivered.unity using Guid(824c0c4c97194f64892e4ad47f163353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2920b0daec65b640e1d949468a252021') in 0.012547 seconds
+  Import took 0.014903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.042857 seconds.
+  path: Assets/Scripts/PersonColision.cs
+  artifactKey: Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PersonColision.cs using Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a3db5e6907100cab2c0182d90111dc') in 0.002767 seconds
+  Import took 0.005204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.220508 seconds.
+  path: Assets/Scripts/CarCollision.cs
+  artifactKey: Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarCollision.cs using Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6258fb85a2a9c9bba819f7cac2aaf790') in 0.008596 seconds
+  Import took 0.011242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028250 seconds.
+  path: Assets/Scripts/CarCollision.cs
+  artifactKey: Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarCollision.cs using Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6258fb85a2a9c9bba819f7cac2aaf790') in 0.003456 seconds
+  Import took 0.006618 seconds .
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.002904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.7 MB.
+System memory in use after: 159.8 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 1.602396 ms (FindLiveObjects: 0.173979 ms CreateObjectMapping: 0.061283 ms MarkObjects: 1.345515 ms  DeleteObjects: 0.020755 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.062423 seconds.
+  path: Assets/Scripts/CarCollision.cs
+  artifactKey: Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarCollision.cs using Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb9cefc3fb96c21e9e00186fad73947') in 0.009992 seconds
+  Import took 0.013003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009082 seconds.
+  path: Assets/Scripts/CarCollision.cs
+  artifactKey: Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarCollision.cs using Guid(1c687781041e7444c8153545bd0a8c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb9cefc3fb96c21e9e00186fad73947') in 0.003283 seconds
+  Import took 0.005820 seconds .
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.003073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.9 MB.
+System memory in use after: 160.0 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2107.
+Total: 1.532885 ms (FindLiveObjects: 0.169999 ms CreateObjectMapping: 0.047632 ms MarkObjects: 1.294245 ms  DeleteObjects: 0.019913 ms)
+
+========================================================================
+Received Prepare
+Platform WindowsStandaloneSupport does not support graphics device type 
+
+Registering precompiled user dll's ...
+Registered in 0.002646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.1 MB.
+System memory in use after: 160.2 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2109.
+Total: 1.551953 ms (FindLiveObjects: 0.168260 ms CreateObjectMapping: 0.051608 ms MarkObjects: 1.310698 ms  DeleteObjects: 0.019879 ms)
+
