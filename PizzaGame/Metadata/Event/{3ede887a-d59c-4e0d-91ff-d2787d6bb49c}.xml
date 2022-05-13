@@ -52,6 +52,9 @@ Life_State: 0 = Death, 1 = Life</value>
 			<destination>{bab8ed5e-2eaa-4c7b-8eca-de8157e6a954}</destination>
 			<destination>{985b3858-a84c-420e-9567-1edcc9767ac8}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{09942ee7-9ea4-410a-b8da-038a3a149ae2}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{408305f6-68cd-42c2-912e-3795b62ebad1}">
 		<relationship name="masterBus">
@@ -87,7 +90,6 @@ Life_State: 0 = Death, 1 = Life</value>
 	<object class="GroupTrack" id="{f84dcfaf-788b-4bcb-a1d6-3e89e1dac88f}">
 		<relationship name="modules">
 			<destination>{f880ad16-484d-4f90-af14-9010f1e28345}</destination>
-			<destination>{406d2dcb-10cf-4042-972e-0e36d1e6db8e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{92e71423-25f9-4a13-aad5-b78e500216ce}</destination>
@@ -179,7 +181,6 @@ Life_State: 0 = Death, 1 = Life</value>
 			<destination>{038ab821-9632-47ea-9813-caa1451f3423}</destination>
 			<destination>{aa611bbb-9a32-4db2-ae27-d9dadd7fca0d}</destination>
 			<destination>{6383503c-e065-4126-9021-eb5e52bab95a}</destination>
-			<destination>{406d2dcb-10cf-4042-972e-0e36d1e6db8e}</destination>
 			<destination>{981164a1-96f5-45d0-bf63-0848df034ee0}</destination>
 			<destination>{e6c5bfa1-1c79-4ede-b307-10c18254a0eb}</destination>
 			<destination>{97794114-e8ad-47e6-b624-2411e8abf7ea}</destination>
@@ -248,17 +249,6 @@ Life_State: 0 = Death, 1 = Life</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e5e9b837-1be4-44c6-96dd-c7216fb6be0c}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{406d2dcb-10cf-4042-972e-0e36d1e6db8e}">
-		<property name="start">
-			<value>21.971354166666671</value>
-		</property>
-		<property name="length">
-			<value>5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{49bc643e-0268-418e-8208-309e5c41d8a2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{92e71423-25f9-4a13-aad5-b78e500216ce}">

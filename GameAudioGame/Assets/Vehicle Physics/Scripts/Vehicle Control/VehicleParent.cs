@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 namespace RVP
 {
@@ -173,6 +174,13 @@ namespace RVP
         }
 
         void Update() {
+        Debug.Log(SceneManager.GetActiveScene().name);
+        if(SceneManager.GetActiveScene().name!="GameScene"){
+            instance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            instance.release();
+            musicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            musicInstance.release();
+        }
             // Shift single frame pressing logic
             if (stopUpshift) {
                 upshiftPressed = false;
@@ -223,7 +231,6 @@ namespace RVP
             velMag = rb.velocity.magnitude; 
             instance.setParameterByName("RPM", velMag/30); 
             musicInstance.setParameterByName("RPM", velMag/20); 
-            
             sqrVelMag = rb.velocity.sqrMagnitude;
             forwardDir = tr.forward;
             rightDir = tr.right;

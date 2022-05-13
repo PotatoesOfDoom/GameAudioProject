@@ -32,6 +32,7 @@ public class CarCollision : MonoBehaviour
         
         if (collision.gameObject.tag == "Speaker")
         {
+            instance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             instance = FMODUnity.RuntimeManager.CreateInstance("event:/Music/SpeakerMusic");
             instance.start();
             instance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
